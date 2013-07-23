@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  height: 140px;
+  width: 100%;
+  background-color: #fc0;
+}
+
+header img {
+  margin-top: 36px;
+}
+
+header p {
+  margin-top: -190px;
+  font-size: 16px;
+  margin-left: -190px;
+  color: #000;
+}
+
+header, section {
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 60px 0 0 0;
+}
+
+section {
+  width: 960px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+section a {
+  color: #09c;
+}
+
+section h2 {
+  margin-top: 100px;
+  margin-bottom: 0;
+  color: #333;
+}
+
+section h2 span {
+  color: #ccc;
+}
+
+section ul {
+  list-style: none outside none;
+  margin: auto;
+  text-align: center;
+}
+
+section ul li {
+  display: inline-block;
+  width: 148px;
+  margin: 3em 1.3em 0 0.5em;
+  text-align: center;
+}
+
+section ul li img.speaker {
+  border-radius: 100px;
+  width: 148px;
+}
+
+section ul li h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+section ul li h3 a {
+  text-decoration: none;
+  color: #111;
+}
+
+section ul li p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+  margin: 0;
+}
+
+section div.clear {
+  clear: both;
+}
+
+section p.cfp {
+  margin-top: 40px;
+}
+
+section iframe {
+  width: 599px;
+  height: 466px;
+  border-width: 0;
+  margin: auto;
+}
+
+footer {
+  width: 550px;
+  margin: auto;
+  padding: 60px 0;
+  clear: both;
+}
+
+footer p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #111;
+  border-bottom: 1px solid #999;
+  font-weight: 400;
+}
