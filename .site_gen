@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+/usr/bin/env ruby .generator.rb es > index.html
+/usr/bin/env ruby .generator.rb en > index_en.html
