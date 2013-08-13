@@ -43,6 +43,11 @@ header h1 {
   margin: 60px 0 0 0;
 }
 
+header div {
+  margin-left: 640px;
+  margin-top: -34px;
+}
+
 section {
   width: 960px;
   text-align: center;

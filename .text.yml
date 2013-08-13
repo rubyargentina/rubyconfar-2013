@@ -8,6 +8,12 @@ header:
   es: |
         Estamos orgullosos de anunciar la tercer edición de RubyConf Argentina,<br>
         la conferencia local de Ruby y tecnologías relacionadas.
+lang_link:
+  en: index.html
+  es: index_en.html
+lang_text:
+  en: Español
+  es: English
 cfp_title:
   en: Speakers &amp; Call for Proposals
   es: Oradores &amp; Convocatoria de Propuestas
