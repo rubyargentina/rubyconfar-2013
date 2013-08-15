@@ -38,7 +38,6 @@ nav li {
 }
 
 nav li.pull-right {
-  float:right;
   padding-right: 10px;
 }
 
@@ -158,16 +157,16 @@ section iframe {
 }
 
 footer {
-  width: 550px;
-  margin: auto;
-  padding: 60px 0;
+  width: 100%;
+  margin: 50px 0 0;
+  padding: 20px 15px 30px;
   clear: both;
+  background-color: #ddd;
 }
 
 footer p {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 200;
-  text-align: center;
 }
 
 footer p a {
@@ -194,4 +193,8 @@ footer p a {
 
 .btn-red{
   background-color: #d33;
+}
+
+.pull-right{
+  float:right;
 }
