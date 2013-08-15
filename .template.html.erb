@@ -12,16 +12,15 @@
     <header>
       <img src="img/rubyconfar-2013.png">
       <p>
-        Buenos Aires, November 27 &amp; 28, 2013
+        Buenos Aires, <%= t('date') %>
       </p>
     </header>
 
     <section>
       <p style="margin-top: 100px; font-size: 30px;">
-      We are very proud to present the third edition of RubyConf Argentina,<br>
-      a regional conference about Ruby and related technologies.</p>
+      <%= t('header')%></p>
 
-      <h2>Speakers &amp; Call for Proposals</h2>
+      <h2><%= t('cfp_title')%></h2>
 
       <ul>
         <li>
@@ -58,19 +57,19 @@
 
       <div class="clear">&nbsp;</div>
 
-      <p class="cfp">Do you want to speak up and share your ideas? <a href="https://docs.google.com/forms/d/1g48FQO7BpC7LfagZGuOcyH6kHeUOuhO3IfqxAoGv5Q4/viewform">Send your proposal before September 1st</a>.</p>
+      <p class="cfp"><%= t('cfp_text')%> <a href="https://docs.google.com/forms/d/1g48FQO7BpC7LfagZGuOcyH6kHeUOuhO3IfqxAoGv5Q4/viewform"><%= t('cfp_link') %></a>.</p>
 
-      <h2>Venue</h2>
+      <h2><%= t('venue_title') %></h2>
 
-      <p>This year the event returns to <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
+      <p><%= t('venue_text') %> <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
 
       <iframe src="https://www.google.com/maps?t=m&q=Ciudad+Cultural+Konex&dg=opt&ie=UTF8&hq=Ciudad+Cultural+Konex&hnear=&z=16&vpsrc=0&cid=13957683743549153120&iwloc=A&output=embed" frameborder="0"></iframe>
     </section>
 
     <footer>
-      <p>RubyConf Argentina is organized by <abbr title="Ruby Argentina Asociación Civil">RAAC</abbr>, a non-profit organization dedicated to promoting the growth of Ruby and related technologies.</p>
+      <p><%= t('footer_first') %> <abbr title="Ruby Argentina Asociación Civil">RAAC</abbr>, <%= t('footer_end') %>.</p>
       <p>
-        <a href="http://twitter.com/rubyconfar">Follow us</a> and <a href="http://facebook.com/rubyconfar">like us</a>
+        <a href="http://twitter.com/rubyconfar"><%= t('follow_us') %></a> <%= t('and') %> <a href="http://facebook.com/rubyconfar"><%= t('like_us') %></a>
       </p>
     </footer>
     

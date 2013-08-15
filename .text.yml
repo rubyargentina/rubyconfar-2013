@@ -1,0 +1,40 @@
+date:
+  en: November 27 &amp; 28, 2013
+  es: 27 y 28 de Noviembre, 2013
+header:
+  en: |
+        We are very proud to present the third edition of RubyConf Argentina,<br>
+        a regional conference about Ruby and related technologies.
+  es: |
+        Estamos orgullosos de anunciar la tercer edición de RubyConf Argentina,<br>
+        la conferencia local de Ruby y tecnologías relacionadas.
+cfp_title:
+  en: Speakers &amp; Call for Proposals
+  es: Oradores &amp; Convocatoria de Propuestas
+cfp_text:
+  en: Do you want to speak up and share your ideas?
+  es: Querés hablar y compartir tus ideas?
+cfp_link:
+  en: Send your proposal before September 1st
+  es: Envianos tu propuesta antes del 1º de Septiembre
+venue_title:
+  en: Venue
+  es: Lugar
+venue_text:
+  en: This year the event returns to
+  es: Este año el evento vuelve a
+footer_first:
+  en: RubyConf Argentina is organized by
+  es: RubyConf Argentina es organizada por
+footer_end:
+  en: a non-profit organization dedicated to promoting the growth of Ruby and related technologies
+  es: asociación sin fines de lucro dedicada a promover el crecimiento de Ruby y teconologías relacionadas
+follow_us:
+  en: Follow us
+  es: Seguinos
+and:
+  en: and
+  es: y
+like_us:
+  en: like us
+  es: Dale a Me Gusta
