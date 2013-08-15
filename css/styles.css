@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-body {
+body {  
   color: #333;
   background-color: #fff;
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 nav{
@@ -18,17 +19,22 @@ nav{
   width: 100%;
   position: fixed;
   border-bottom: 1px solid #999;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul{
-  margin: 0 5px;
+  margin: 0;
+  padding: 0;
   list-style: none;
   width: 100%;
   -webkit-padding-start: 0px;
 }
 
 nav li {
-  padding: 8px 5px;
+  display: inline;
+  float: left;
+  padding: 8px 12px;
 }
 
 nav li.pull-right {
@@ -39,8 +45,8 @@ nav li.pull-right {
 nav a{
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
+  /*font-weight: bold;*/
+  font-size: 16px;
 }
 
 nav a:hover{

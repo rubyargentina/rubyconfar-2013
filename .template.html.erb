@@ -9,6 +9,8 @@
   <body>
     <nav>
       <ul>
+        <li><a href='#speakers'><%= t('nav_speakers') %></a></li>
+        <li><a href='#venue'><%= t('nav_venue') %></a></li>
         <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
       </ul>
     </nav>
@@ -24,7 +26,10 @@
       <p style="margin-top: 100px; font-size: 30px;">
       <%= t('header')%></p>
 
-      <h2><%= t('cfp_title')%></h2>
+
+      <a name="speakers">
+        <h2><%= t('cfp_title')%></h2>
+      </a>
 
       <ul>
         <li>
@@ -63,7 +68,10 @@
 
       <p class="cfp"><%= t('cfp_text')%> <a href="https://docs.google.com/forms/d/1g48FQO7BpC7LfagZGuOcyH6kHeUOuhO3IfqxAoGv5Q4/viewform"><%= t('cfp_link') %></a>.</p>
 
-      <h2><%= t('venue_title') %></h2>
+
+      <a name="venue">
+        <h2><%= t('venue_title') %></h2>
+      </a>
 
       <p><%= t('venue_text') %> <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
 
