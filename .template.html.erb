@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= t('site_lang') %>">
   <head>
     <meta charset="UTF-8" />
     <link href="../css/styles.css" rel="stylesheet" type="text/css">
@@ -7,6 +7,12 @@
     <link rel="icon" type="image/png" href="../favicon.png" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
+      </ul>
+    </nav>
+    
     <header>
       <img src="../img/rubyconfar-2013.png">
       <p>

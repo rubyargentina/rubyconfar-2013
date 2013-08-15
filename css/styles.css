@@ -13,14 +13,48 @@ body {
   height: 100%;
 }
 
+nav{
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #999;
+}
+
+nav ul{
+  margin: 0 5px;
+  list-style: none;
+  width: 100%;
+  -webkit-padding-start: 0px;
+}
+
+nav li {
+  padding: 8px 5px;
+}
+
+nav li.pull-right {
+  float:right;
+  padding-right: 10px;
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav a:hover{
+  color: #fc0
+}
+
 header {
-  height: 120px;
+  height: 134px;
   width: 100%;
   background-color: #fc0;
 }
 
 header img {
-  margin-top: 16px;
+  margin-top: 28px;
 }
 
 header p {
