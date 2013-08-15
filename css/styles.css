@@ -176,3 +176,22 @@ footer p a {
   border-bottom: 1px solid #999;
   font-weight: 400;
 }
+
+.btn{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #ddd;
+  border: 1px solid #ddd;
+}
+
+.btn-yellow{
+  background-color: #fc0;
+}
+
+.btn-red{
+  background-color: #d33;
+}
