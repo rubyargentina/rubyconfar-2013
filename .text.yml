@@ -8,8 +8,8 @@ nav_venue:
   en: Venue
   es: Lugar
 nav_lang_selector_url:
-  en: /es/index.html
-  es: /en/index.html
+  en: /es
+  es: /en
 nav_lang_selector_message:
   en: ¿Hablas español?
   es: Do you speak english?
@@ -22,7 +22,7 @@ header:
         a regional conference about Ruby and related technologies.
   es: |
         Estamos orgullosos de anunciar la tercer edición de RubyConf Argentina,<br>
-        una conferencia regional de Ruby y tecnologías relacionadas.
+        una conferencia regional sobre Ruby y tecnologías relacionadas.
 cfp_title:
   en: Speakers &amp; Call for Proposals
   es: Oradores &amp; Convocatoria de Propuestas
