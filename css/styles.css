@@ -157,16 +157,18 @@ section iframe {
 }
 
 footer {
-  width: 100%;
-  margin: 50px 0 0;
-  padding: 20px 15px 30px;
-  clear: both;
+  margin-top: 50px;
+  padding: 20px 0;
   background-color: #ddd;
+  display: inline-block;
+  width: 100%;
 }
 
 footer p {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 200;
+  padding: 0 15px;
+  margin: 5px 0;
 }
 
 footer p a {
@@ -197,4 +199,38 @@ footer p a {
 
 .pull-right{
   float:right;
+}
+
+.icon{
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+  margin: 0 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #aaa
+}
+
+.icon-twitter{
+  background: transparent url("../img/social_icons.gif") 0px 0 no-repeat
+}
+
+.icon-facebook{
+  background: transparent url("../img/social_icons.gif") -26px 0 no-repeat
+}
+
+.icon-lanyrd{
+  background: transparent url("../img/social_icons.gif") -52px 0 no-repeat
+}
+
+.icon-vimeo{
+  background: transparent url("../img/social_icons.gif") -78px 0 no-repeat
+}
+
+.old-editions{
+  float: left;
+}
+
+.old-editions a{
+  font-size: 12px;
+  color: #333;
 }
