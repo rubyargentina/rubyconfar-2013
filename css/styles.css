@@ -157,7 +157,7 @@ section iframe {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 60px;
   padding: 20px 0;
   background-color: #ddd;
   display: inline-block;
@@ -226,11 +226,11 @@ footer p a {
   background: transparent url("../img/social_icons.gif") -78px 0 no-repeat
 }
 
-.old-editions{
+.past-editions{
   float: left;
 }
 
-.old-editions a{
+.past-editions a{
   font-size: 12px;
   color: #333;
 }

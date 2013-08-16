@@ -11,6 +11,7 @@
       <ul>
         <li><a href='#speakers'><%= t('nav_speakers') %></a></li>
         <li><a href='#venue'><%= t('nav_venue') %></a></li>
+        <li><a href='#sponsors'><%= t('nav_sponsors') %></a></li>
         <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
       </ul>
     </nav>
@@ -77,6 +78,15 @@
       <p><%= t('venue_text') %> <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
 
       <iframe src="https://www.google.com/maps?t=m&q=Ciudad+Cultural+Konex&dg=opt&ie=UTF8&hq=Ciudad+Cultural+Konex&hnear=&z=16&vpsrc=0&cid=13957683743549153120&iwloc=A&output=embed" frameborder="0"></iframe>
+
+
+      <a name="sponsors">
+        <h2><%= t('sponsors_title') %></h2>
+      </a>
+
+      <p><%= t('sponsors_text') %></p>
+      <p><a href="mailto:rubyconfar@gmail.com"><%= t('contact_us')%></a> <%= t('sponsors_text_closure') %></p>
+
     </section>
 
     <footer>
@@ -87,9 +97,10 @@
         <a href="http://lanyrd.com/2013/rubyconfar" title="Lanyrd" class="icon icon-lanyrd"></a>
         <a href="https://vimeo.com/rubyargentina" title="Vimeo" class="icon icon-vimeo"></a>
       </p>
-      <p class="old-editions">
-        <a href="http://2011.rubyconfargentina.org">Edición 2012</a>
-        <a href="http://2012.rubyconfargentina.org">Edición 2013</a>
+      <p class="past-editions">
+        <%= t('past_editions') %>:
+        <a href="http://2011.rubyconfargentina.org">RubyConf Argentina 2011</a>
+        <a href="http://2012.rubyconfargentina.org">RubyConf Argentina 2012</a>
       </p>
     </footer>
     
