@@ -2,13 +2,16 @@
 <html lang="<%= t('site_lang') %>">
   <head>
     <meta charset="UTF-8" />
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" rel="stylesheet" media="all">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>RubyConf Argentina 2013</title>
     <link rel="icon" type="image/png" href="../favicon.png" />
   </head>
   <body>
     <nav>
       <ul>
+        <li><a href='#home'><%= t('nav_home') %></a></li>
         <li><a href='#speakers'><%= t('nav_speakers') %></a></li>
         <li><a href='#venue'><%= t('nav_venue') %></a></li>
         <li><a href='#sponsors'><%= t('nav_sponsors') %></a></li>
@@ -16,86 +19,97 @@
       </ul>
     </nav>
     
-    <header>
-      <img src="../img/rubyconfar-2013.png">
-      <p>
-        Buenos Aires, <%= t('date') %>
-      </p>
+    <header id="home">
+      <div class="container">
+        <img src="../img/rubyconfar-2013.png">
+        <p>Buenos Aires, <%= t('date') %></p>
+      </div>
     </header>
 
-    <section>
-      <p style="margin-top: 100px; font-size: 30px;">
-      <%= t('header')%></p>
+    <section id="home">
+      <div class="container">
+        <h1><%= t('header')%></h1>
+        <a href="https://eventioz.com.ar/e/rubyconf-argentina-2013/registrations/new" class="btn btn-red btn-large"><i class="icon-ticket"></i> <%= t('register') %></a>
+        <p class="price">
+          <span class="price price-regular">ARS $800</span>
+          <span class="price price-earlybird">ARS $500</span>
+          <span class="price price-legend"><%= t('price_legend') %></span>
+        </p>
+        <p class="ticket-includes"><%= t('ticket_includes') %></p>
+      </div>
+    </section>
 
-
-      <a name="speakers">
+    <section id="speakers">
+      <div class="container">
         <h2><%= t('cfp_title')%></h2>
-      </a>
+        <ul>
+          <li>
+            <img class="speaker" alt="Brock Whitten" src="../img/speakers/sintaxi.jpg">
+            <h3><a href="https://twitter.com/sintaxi">sintaxi</a></h3>
+            <p>(Brock Whitten)</p>
+            <p>Harp platform</p>
+          </li>
+          <li>
+            <img class="speaker" alt="Thomas Edward Figg" src="../img/speakers/tef.jpg">
+            <h3><a href="https://twitter.com/tef">tef</a></h3>
+            <p>(Thomas Edward Figg)</p>
+            <p>Code Club</p>
+          </li>
+          <li>
+            <img class="speaker" alt="Ostap Cherkashin" src="../img/speakers/cherkaos.jpg">
+            <h3><a href="https://twitter.com/cherkaos">cherkaos</a></h3>
+            <p>(Ostap Cherkashin)</p>
+            <p>Mingle</p>
+          </li>
+          <li>
+            <img class="speaker" alt="Jano González" src="../img/speakers/janogonzalez.jpg">
+            <h3><a href="https://twitter.com/janogonzalez">janogonzalez</a></h3>
+            <p>(Jano González)</p>
+            <p>HopIn</p>
+          </li>
+          <li>
+            <img class="speaker" alt="Linda Sandvik" src="../img/speakers/hyper_linda.jpg">
+            <h3><a href="https://twitter.com/hyper_linda">hyper_linda</a></h3>
+            <p>(Linda Sandvik)</p>
+            <p>Code Club</p>
+          </li>
+        </ul>
+        <div class="clear">&nbsp;</div>
+        <p class="cfp"><%= t('cfp_text')%></p>
+        <p>
+          <a class="btn btn-yellow" href="https://docs.google.com/forms/d/1g48FQO7BpC7LfagZGuOcyH6kHeUOuhO3IfqxAoGv5Q4/viewform">
+            <%= t('cfp_link') %> <i class="icon-chevron-right"></i></a>
+        </p>
+      </div>
+    </section>
 
-      <ul>
-        <li>
-          <img class="speaker" alt="Brock Whitten" src="../img/speakers/sintaxi.jpg">
-          <h3><a href="https://twitter.com/sintaxi">sintaxi</a></h3>
-          <p>(Brock Whitten)</p>
-          <p>Harp platform</p>
-        </li>
-        <li>
-          <img class="speaker" alt="Thomas Edward Figg" src="../img/speakers/tef.jpg">
-          <h3><a href="https://twitter.com/tef">tef</a></h3>
-          <p>(Thomas Edward Figg)</p>
-          <p>Code Club</p>
-        </li>
-        <li>
-          <img class="speaker" alt="Ostap Cherkashin" src="../img/speakers/cherkaos.jpg">
-          <h3><a href="https://twitter.com/cherkaos">cherkaos</a></h3>
-          <p>(Ostap Cherkashin)</p>
-          <p>Mingle</p>
-        </li>
-        <li>
-          <img class="speaker" alt="Jano González" src="../img/speakers/janogonzalez.jpg">
-          <h3><a href="https://twitter.com/janogonzalez">janogonzalez</a></h3>
-          <p>(Jano González)</p>
-          <p>HopIn</p>
-        </li>
-        <li>
-          <img class="speaker" alt="Linda Sandvik" src="../img/speakers/hyper_linda.jpg">
-          <h3><a href="https://twitter.com/hyper_linda">hyper_linda</a></h3>
-          <p>(Linda Sandvik)</p>
-          <p>Code Club</p>
-        </li>
-      </ul>
-
-      <div class="clear">&nbsp;</div>
-
-      <p class="cfp"><%= t('cfp_text')%></p>
-      <p><a class="btn btn-yellow" href="https://docs.google.com/forms/d/1g48FQO7BpC7LfagZGuOcyH6kHeUOuhO3IfqxAoGv5Q4/viewform"><%= t('cfp_link') %></a></p>
-
-
-      <a name="venue">
+    <section id="venue">
+      <div class="container">
         <h2><%= t('venue_title') %></h2>
-      </a>
+        <p><%= t('venue_text') %> <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
+        <iframe width="480" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?q=Sarmiento+3131,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires,+Argentina&amp;hnear=Sarmiento+3131,+Balvanera,+Buenos+Aires,+Argentina&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+      </div>
+    </section>
 
-      <p><%= t('venue_text') %> <a href="http://www.ciudadculturalkonex.org/?page=institucional&subpage=historia">Ciudad Cultural Konex</a>.</p>
-
-      <iframe src="https://www.google.com/maps?t=m&q=Ciudad+Cultural+Konex&dg=opt&ie=UTF8&hq=Ciudad+Cultural+Konex&hnear=&z=16&vpsrc=0&cid=13957683743549153120&iwloc=A&output=embed" frameborder="0"></iframe>
-
-
-      <a name="sponsors">
+    <section id="sponsors">
+      <div class="container">
         <h2><%= t('sponsors_title') %></h2>
-      </a>
-
-      <p><%= t('sponsors_text') %></p>
-      <p><a href="mailto:rubyconfar@gmail.com"><%= t('contact_us')%></a> <%= t('sponsors_text_closure') %></p>
-
+        <p><%= t('sponsors_text') %></p>
+        <ul>
+          <li>
+            <a href="http://citrusbyte.com"><img src="../img/sponsors/citrusbyte.png" height="77" width="270" alt="Citrusbyte"></a></p>
+          </li>
+        </ul>
+        <p><a href="mailto:rubyconfar@gmail.com"><%= t('contact_us')%></a> <%= t('sponsors_text_closure') %></p>
+      </div>
     </section>
 
     <footer>
       <p><%= t('footer_first') %> <abbr title="Ruby Argentina Asociación Civil">RAAC</abbr>, <%= t('footer_end') %>.</p>
       <p class="social-icons pull-right">
-        <a href="http://twitter.com/rubyconfar" title="Twitter" class="icon icon-twitter"></a>
-        <a href="http://facebook.com/rubyconfar" title="Facebook" class="icon icon-facebook"></a>
-        <a href="http://lanyrd.com/2013/rubyconfar" title="Lanyrd" class="icon icon-lanyrd"></a>
-        <a href="https://vimeo.com/rubyargentina" title="Vimeo" class="icon icon-vimeo"></a>
+        <a href="http://twitter.com/rubyconfar" title="Twitter"><i class="icon-twitter-sign icon-2x"></i></a>
+        <a href="http://facebook.com/rubyconfar" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a>
+        <a href="https://vimeo.com/rubyargentina" title="Vimeo"><i class="icon-youtube-play icon-2x"></i></a>
       </p>
       <p class="past-editions">
         <%= t('past_editions') %>:

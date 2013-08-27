@@ -1,6 +1,9 @@
 site_lang:
   en: en
   es: es
+nav_home:
+  en: Home
+  es: Inicio
 nav_speakers:
   en: Speakers
   es: Oradores
@@ -21,11 +24,20 @@ date:
   es: 27 y 28 de Noviembre, 2013
 header:
   en: |
-        We are very proud to present the third edition of RubyConf Argentina,<br>
+        We are very proud to announce the third edition of RubyConf Argentina,<br>
         a regional conference about Ruby and related technologies.
   es: |
         Estamos orgullosos de anunciar la tercer edición de RubyConf Argentina,<br>
         una conferencia regional sobre Ruby y tecnologías relacionadas.
+register:
+  en: Register now!
+  es: Registrate ahora!
+price_legend:
+  en: (about USD 88), upto October 11th
+  es: (aprox. USD 88), hasta el 11 de ocubre
+ticket_includes:
+  en: "Your ticket includes: access to all sessions during the conference, breakfasts, lunches and coffee breaks, official T-shirt, access to Ruby Fun Day"
+  es: "Tu entrada incluye: Acceso a todas las charlas durante los dos días de conferencia, desayunos, almuerzos y coffee breaks, camiseta oficial de la conferencia, acceso al Ruby Fun Day"
 cfp_title:
   en: Speakers &amp; Call for Proposals
   es: Oradores &amp; Convocatoria de Propuestas

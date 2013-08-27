@@ -21,6 +21,7 @@ nav{
   border-bottom: 1px solid #999;
   margin: 0;
   padding: 0;
+  z-index: 1040;
 }
 
 nav ul{
@@ -53,13 +54,13 @@ nav a:hover{
 }
 
 header {
-  height: 134px;
+  height: 150px;
   width: 100%;
   background-color: #fc0;
 }
 
 header img {
-  margin-top: 28px;
+  margin-top: -4px;
 }
 
 header p {
@@ -70,22 +71,30 @@ header p {
 }
 
 header, section {
-  padding-top: 10px;
   margin: auto;
   text-align: center;
 }
 
-header h1 {
-  font-family: "Trebuchet MS", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  margin: 60px 0 0 0;
+section {
+  width: 100%;
+  text-align: center;
 }
 
-section {
+section h1{
+  margin-top: 100px; 
+  font-size: 30px;
+  font-weight: 300;
+}
+
+section#home{
+  margin-top: 65px;
+}
+
+.container{
   width: 960px;
-  text-align: center;
-  margin-top: 100px;
+  margin: 50px auto;
+  display: inline-block;
+  clear: both;
 }
 
 section a {
@@ -93,9 +102,10 @@ section a {
 }
 
 section h2 {
-  margin-top: 100px;
-  margin-bottom: 0;
   color: #333;
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  margin-top: 0;
 }
 
 section h2 span {
@@ -104,14 +114,15 @@ section h2 span {
 
 section ul {
   list-style: none outside none;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 section ul li {
   display: inline-block;
-  width: 148px;
-  margin: 3em 1.3em 0 0.5em;
+  margin: 0 1em;
   text-align: center;
 }
 
@@ -149,17 +160,11 @@ section p.cfp {
   margin-top: 40px;
 }
 
-section iframe {
-  width: 599px;
-  height: 466px;
-  border-width: 0;
-  margin: auto;
-}
-
 footer {
   margin-top: 60px;
   padding: 20px 0;
-  background-color: #ddd;
+  background-color: #333;
+  color: #fff;
   display: inline-block;
   width: 100%;
 }
@@ -171,11 +176,8 @@ footer p {
   margin: 5px 0;
 }
 
-footer p a {
+footer a{
   text-decoration: none;
-  color: #111;
-  border-bottom: 1px solid #999;
-  font-weight: 400;
 }
 
 .btn{
@@ -183,14 +185,27 @@ footer p a {
   color: #fff;
   padding: 10px;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
   text-shadow: -1px -1px #ddd;
   border: 1px solid #ddd;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn i{
+  font-weight: normal;
+  text-shadow: none;
 }
 
 .btn-yellow{
   background-color: #fc0;
+}
+
+.btn-large{
+  padding: 18px 22px;
+  font-size: 20px;
 }
 
 .btn-red{
@@ -232,5 +247,43 @@ footer p a {
 
 .past-editions a{
   font-size: 12px;
-  color: #333;
+  color: #ddd;
+  text-decoration: none;
+  border-bottom: 1px dotted #ddd;
+}
+
+section#speakers{
+  background-color:#f3f3f3;
+}
+
+section#venue{
+  background-color: #777;
+  color: #fff;
+}
+
+section#venue h2{
+  color: #fff;
+}
+
+
+i, i a{
+  color: #fff;
+}
+
+span.price{
+  font-weight: 200;
+}
+span.price-regular{
+  text-decoration: line-through;
+}
+span.price-earlybird{
+  font-weight: 800;
+  color: #d33;
+}
+p.ticket-includes{
+  font-size: 14px;
+  width: 600px;
+  margin: 0 auto;
+  color: 
+  #999;
 }
