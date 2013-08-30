@@ -273,17 +273,24 @@ i, i a{
 span.price{
   font-weight: 200;
 }
+
 span.price-regular{
   text-decoration: line-through;
 }
+
 span.price-earlybird{
   font-weight: 800;
   color: #d33;
 }
+
 p.ticket-includes{
   font-size: 14px;
   width: 600px;
   margin: 0 auto;
   color: 
   #999;
+}
+
+section#sponsors ul{
+  margin-bottom: 20px;
 }
