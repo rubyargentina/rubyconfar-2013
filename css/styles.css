@@ -14,6 +14,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+img{
+  border: 0;
+}
+
 nav{
   background-color: #333;
   width: 100%;
@@ -292,5 +296,5 @@ p.ticket-includes{
 }
 
 section#sponsors ul{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
