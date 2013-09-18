@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'yaml'
 require 'ERB'
 
@@ -14,6 +16,11 @@ class Generator
   def html_result
     ERB.new(File.open(".template.html.erb").read).result(binding)
   end
+end
+
+if ARGV[0].nil?
+  printf "usage: %s [en|es]\n", $0
+  exit
 end
 
 puts Generator.new(ARGV[0]).html_result
