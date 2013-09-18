@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-body {  
+body {
   color: #333;
   background-color: #fff;
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -14,11 +14,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-img{
+img {
   border: 0;
 }
 
-nav{
+nav {
   background-color: #333;
   width: 100%;
   position: fixed;
@@ -28,7 +28,7 @@ nav{
   z-index: 1040;
 }
 
-nav ul{
+nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -46,14 +46,14 @@ nav li.pull-right {
   padding-right: 10px;
 }
 
-nav a{
+nav a {
   color: #fff;
   text-decoration: none;
   /*font-weight: bold;*/
   font-size: 16px;
 }
 
-nav a:hover{
+nav a:hover {
   color: #fc0
 }
 
@@ -84,17 +84,17 @@ section {
   text-align: center;
 }
 
-section h1{
-  margin-top: 100px; 
+section h1 {
+  margin-top: 100px;
   font-size: 30px;
   font-weight: 300;
 }
 
-section#home{
+section#home {
   margin-top: 65px;
 }
 
-.container{
+.container {
   width: 960px;
   margin: 50px auto;
   display: inline-block;
@@ -180,11 +180,11 @@ footer p {
   margin: 5px 0;
 }
 
-footer a{
+footer a {
   text-decoration: none;
 }
 
-.btn{
+.btn {
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -198,29 +198,29 @@ footer a{
   display: inline-block;
 }
 
-.btn i{
+.btn i {
   font-weight: normal;
   text-shadow: none;
 }
 
-.btn-yellow{
+.btn-yellow {
   background-color: #fc0;
 }
 
-.btn-large{
+.btn-large {
   padding: 18px 22px;
   font-size: 20px;
 }
 
-.btn-red{
+.btn-red {
   background-color: #d33;
 }
 
-.pull-right{
+.pull-right {
   float:right;
 }
 
-.icon{
+.icon {
   height: 26px;
   width: 26px;
   display: inline-block;
@@ -229,72 +229,72 @@ footer a{
   box-shadow: 2px 2px 3px #aaa
 }
 
-.icon-twitter{
+.icon-twitter {
   background: transparent url("../img/social_icons.gif") 0px 0 no-repeat
 }
 
-.icon-facebook{
+.icon-facebook {
   background: transparent url("../img/social_icons.gif") -26px 0 no-repeat
 }
 
-.icon-lanyrd{
+.icon-lanyrd {
   background: transparent url("../img/social_icons.gif") -52px 0 no-repeat
 }
 
-.icon-vimeo{
+.icon-vimeo {
   background: transparent url("../img/social_icons.gif") -78px 0 no-repeat
 }
 
-.past-editions{
+.past-editions {
   float: left;
 }
 
-.past-editions a{
+.past-editions a {
   font-size: 12px;
   color: #ddd;
   text-decoration: none;
   border-bottom: 1px dotted #ddd;
 }
 
-section#speakers{
+section#speakers {
   background-color:#f3f3f3;
 }
 
-section#venue{
+section#venue {
   background-color: #777;
   color: #fff;
 }
 
-section#venue h2{
+section#venue h2 {
   color: #fff;
 }
 
 
-i, i a{
+i, i a {
   color: #fff;
 }
 
-span.price{
+span.price {
   font-weight: 200;
 }
 
-span.price-regular{
+span.price-regular {
   text-decoration: line-through;
 }
 
-span.price-earlybird{
+span.price-earlybird {
   font-weight: 800;
   color: #d33;
 }
 
-p.ticket-includes{
+p.ticket-includes {
   font-size: 14px;
   width: 600px;
   margin: 0 auto;
-  color: 
+  color:
   #999;
 }
 
-section#sponsors ul{
+section#sponsors ul {
   margin-bottom: 30px;
 }
