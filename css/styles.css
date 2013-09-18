@@ -191,7 +191,7 @@ footer a {
   border-radius: 10px;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: -1px -1px #ddd;
+  text-shadow: 1px 1px #333;
   border: 1px solid #ddd;
   font-size: 16px;
   cursor: pointer;
