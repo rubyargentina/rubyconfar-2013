@@ -39,11 +39,11 @@ ticket_includes:
   en: "Your ticket includes: access to all sessions during the conference, breakfasts, lunches and coffee breaks, official T-shirt, access to Ruby Fun Day"
   es: "Tu entrada incluye: Acceso a todas las charlas durante los dos días de conferencia, desayunos, almuerzos y coffee breaks, camiseta oficial de la conferencia, acceso al Ruby Fun Day"
 cfp_title:
-  en: Speakers &amp; Call for Proposals
-  es: Oradores &amp; Convocatoria de Propuestas
+  en: Speakers
+  es: Oradores
 cfp_text:
-  en: "<strong>The Call for Proposals is closed!</strong><br>We appreciate all of the submissions we've received. We are currently reviewing them, and will be responding by 9/22."
-  es: "<strong>La convocatoria a oradores ha finalizado!</strong><br>Agradecemos mucho todas las propuestas recibidas. Estamos evaluando cada una de ellas y las estaremos respondiendo a partir del 22/9."
+  en: "More to be announced soon!..."
+  es: "Pronto anunciaremos la lista completa!..."
 cfp_link:
   en: Send your proposal before September 13th!
   es: Envianos tu propuesta antes del 13 de Septiembre!

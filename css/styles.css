@@ -261,6 +261,10 @@ section#speakers {
   background-color:#f3f3f3;
 }
 
+section#speakers li{
+  margin-bottom: 30px;
+}
+
 section#venue {
   background-color: #777;
   color: #fff;

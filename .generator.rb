@@ -7,6 +7,7 @@ class Generator
   def initialize(lang)
     @lang = lang
     @copy = YAML.load_file('.text.yml')
+    @speakers = YAML.load_file('.speakers.yml')
   end
 
   def t(key)
