@@ -6,16 +6,22 @@ require 'ERB'
 class Generator
   def initialize(lang)
     @lang = lang
-    @copy = YAML.load_file('.text.yml')
-    @speakers = YAML.load_file('.speakers.yml')
+    @text = YAML.load_file(".text_#{lang}.yml")
+    @speakers = YAML.load_file(".speakers_#{lang}.yml")
   end
 
   def t(key)
-    @copy[key][@lang]
+    @text[key]
   end
 
   def html_result
-    ERB.new(File.open(".template.html.erb").read).result(binding)
+    write_html @lang + '/index.html', ERB.new( File.open(".template.html.erb").read ).result(binding)
+    write_html @lang + '/program.html', ERB.new( File.open(".program.html.erb").read ).result(binding)
+  end
+
+private
+  def write_html(file, html)
+    File.open(file, 'w'){|f| f.write html}
   end
 end
 

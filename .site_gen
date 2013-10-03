@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 mkdir -p es
-/usr/bin/env ruby .generator.rb es > es/index.html
+/usr/bin/env ruby .generator.rb es
 mkdir -p en
-/usr/bin/env ruby .generator.rb en > en/index.html
+/usr/bin/env ruby .generator.rb en

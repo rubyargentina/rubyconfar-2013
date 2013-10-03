@@ -131,7 +131,7 @@ section ul li {
   text-align: center;
 }
 
-section ul li img.speaker {
+img.speaker {
   border-radius: 100px;
   width: 148px;
 }
@@ -221,31 +221,6 @@ footer a {
   float:right;
 }
 
-.icon {
-  height: 26px;
-  width: 26px;
-  display: inline-block;
-  margin: 0 2px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 3px #aaa
-}
-
-.icon-twitter {
-  background: transparent url("../img/social_icons.gif") 0px 0 no-repeat
-}
-
-.icon-facebook {
-  background: transparent url("../img/social_icons.gif") -26px 0 no-repeat
-}
-
-.icon-lanyrd {
-  background: transparent url("../img/social_icons.gif") -52px 0 no-repeat
-}
-
-.icon-vimeo {
-  background: transparent url("../img/social_icons.gif") -78px 0 no-repeat
-}
-
 .past-editions {
   float: left;
 }
@@ -306,3 +281,34 @@ p.ticket-includes {
 section#sponsors ul {
   margin-bottom: 30px;
 }
+
+section#program{
+  margin-top: 130px;
+}
+
+div.session {
+  margin-bottom: 50px;
+  text-align: left;
+  clear: both;
+  float: left;
+}
+
+.session > .pic{
+  width: 20%;
+  display: inline;
+  clear: left;
+  float: left;
+}
+
+.session > .txt{
+  width: 80%;
+  clear: right;
+  float: right;
+  display: inline;
+}
+
+.session > .txt > h3{ margin: 0;}
+.session > .txt > p{ margin: 0 0 10px 0; }
+
+.session > .txt > h3 a {text-decoration: none;}
+.session > .txt > h3 i {color: #333;}

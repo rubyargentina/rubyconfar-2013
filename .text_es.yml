@@ -1,0 +1,31 @@
+site_lang: es
+nav_home: Inicio
+nav_speakers: Oradores
+nav_program: Programa
+nav_venue: Lugar
+nav_sponsors: Sponsors
+nav_lang_selector_url: /en
+nav_lang_selector_message: Do you speak English?
+date: 27 y 28 de Noviembre, 2013
+header: | 
+  Estamos orgullosos de anunciar la tercer edición de RubyConf Argentina,<br>
+  una conferencia regional sobre Ruby y tecnologías relacionadas.
+register: Registrate ahora!
+price_legend: (aprox. USD 88), hasta el 11 de octubre
+ticket_includes: | 
+  Tu entrada incluye: Acceso a todas las charlas durante los dos días de conferencia, 
+  desayunos, almuerzos y coffee breaks, camiseta oficial de la conferencia, acceso al Ruby Fun Day
+cfp_title: Oradores
+cfp_text: Pronto anunciaremos la lista completa!...
+cfp_link: Envianos tu propuesta antes del 13 de Septiembre!
+venue_title: Lugar
+venue_text: Este año el evento vuelve a
+sponsors_title: Sponsors
+sponsors_text: ¡Los Rubyistas amamos a las organizaciones que apoyan a la comunidad!
+contact_us: Envianos un email
+sponsors_text_closure: y te contaremos cómo tu empresa puede aprovechar esta gran oportunidad.
+footer_first: RubyConf Argentina es organizada por
+footer_end: una asociación sin fines de lucro dedicada a promover el crecimiento de Ruby y teconologías relacionadas
+past_editions: Eventos anteriores
+program_title: Programa de la Charlas
+tba: Pronto publicaremos información sobre su charla...

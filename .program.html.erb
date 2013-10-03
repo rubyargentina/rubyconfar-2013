@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="<%= t('site_lang') %>">
+  <head>
+    <meta charset="UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" rel="stylesheet" media="all">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>RubyConf Argentina 2013</title>
+    <link rel="icon" type="image/png" href="../favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href='index.html#home'><%= t('nav_home') %></a></li>
+        <li><a href='index.html#speakers'><%= t('nav_speakers') %></a></li>
+        <li><a href='program.html'><%= t('nav_program') %></a></li>
+        <li><a href='index.html#venue'><%= t('nav_venue') %></a></li>
+        <li><a href='index.html#sponsors'><%= t('nav_sponsors') %></a></li>
+        <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
+      </ul>
+    </nav>
+    
+    <header id="home">
+      <div class="container">
+        <img src="../img/rubyconfar-2013.png">
+        <p>Buenos Aires, <%= t('date') %></p>
+      </div>
+    </header>
+
+    <section id="program">
+      <div class="container">
+        <h2><%= t('program_title')%></h2>
+        <% @speakers.each do |speaker| %>
+          <% if speaker[1]['bio'] %>
+            <div class="session">
+              <div class="pic">
+                <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
+              </div>
+              <div class="txt">
+                <h3>
+                  <%= speaker[1]['full_name']%>
+                  <% if speaker[1]['twitter'] %><a href="http://twitter.com/<%= speaker[1]['twitter'] %>"><i class="icon-twitter"></i></a><% end %>
+                  <% if speaker[1]['github'] %><a href="http://github.com/<%= speaker[1]['github'] %>"><i class="icon-github"></i></a><% end %>
+                </h3>
+                <p class="bio"><%= speaker[1]['bio'] || '...' %></p>
+                <h3><%= speaker[1]['title'] || t('tba') %></h3>
+                <p><%= speaker[1]['abstract']%></p>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    </section>
+
+
+    <footer>
+      <p><%= t('footer_first') %> <abbr title="Ruby Argentina Asociación Civil">RAAC</abbr>, <%= t('footer_end') %>.</p>
+      <p class="pull-right">
+        <a href="http://twitter.com/rubyconfar" title="Twitter"><i class="icon-twitter-sign icon-2x"></i></a>
+        <a href="http://facebook.com/rubyconfar" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a>
+        <a href="https://vimeo.com/rubyargentina" title="Vimeo"><i class="icon-youtube-play icon-2x"></i></a>
+      </p>
+      <p class="past-editions">
+        <%= t('past_editions') %>:
+        <a href="http://2011.rubyconfargentina.org">RubyConf Argentina 2011</a>
+        <a href="http://2012.rubyconfargentina.org">RubyConf Argentina 2012</a>
+      </p>
+    </footer>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-83541-16']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
