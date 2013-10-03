@@ -12,10 +12,10 @@ sintaxi:
     y está disponible en <a href="http://harpjs.com/">http://harpjs.com/</a>, así como la
     especificación de Harp, que se encuentra en <a href="http://spec.harp.io">http://spec.harp.io</a>
     Basta ya de tecnicismos. Conocí a Brock en RedisConf 2012. Él es una
-    gran tipo, muy inteligente y con ideas muy concretas sobre el diseño de software
-    Fue Rubyista, pero luego Node.js ganó su corazón. En este momento, al igual que 
+    gran tipo, muy inteligente y con ideas muy concretas sobre el diseño de software.
+    Fue Rubyista, pero luego Node.js ganó su corazón. En este momento, al igual que
     la mayoría de nosotros, es un desarrollador políglota.
-    Lo invitamos a hablar en RubyConf Argentina 2012 porque estamos
+    Lo invitamos a hablar en RubyConf Argentina 2013 porque estamos
     impresionados por la claridad con la que se puede hablar de la complejidad del
     software y ofrecer soluciones simples basadas en principios básicos.
     Se ha presentado en varias conferencias en los últimos años y es un placer 
@@ -30,7 +30,7 @@ tef:
     Thomas Edward Figg es un alborotador, un mal programador, un pícaro de escasos resultados. 
     Pero si prestas atención a la forma en que define a sí mismo, y en especial a sus estudios 
     sobre lo social y los problemas culturales en torno a la programación, te darás cuenta de 
-    que todo se ajusta a esa definición. Lo bueno es que tiene algunas buenas ideas para ayudar a
+    que todo se ajusta a esa definición. Lo bueno es que tiene algunas buenas ideas para ayudar
     a arreglar esos problemas.
     Es conocido por su weblog <a href="http://programmingisterrible.com/">programming is terrible</a>, una
     recopilación de artículos y presentaciones sobre programación.
@@ -51,7 +51,7 @@ cherkaos:
   bio: | 
     Ostap Cherkashin es co-fundador de mingle.io, una empresa con el objetivo de simplificar la 
     integración de datos abiertos en las aplicaciones. Él es el desarrollador principal 
-    de comp y co-creador de bandicoot.
+    de <a href="https://github.com/ostap/comp">comp</a> y co-creador de <a href="http://bandilab.org/">bandicoot</a>.
   title: Gluing Data Together
   abstract: | 
     La información se presenta en diferentes estructuras y formas. Lo más común es ver
@@ -61,7 +61,7 @@ cherkaos:
     cambiar una ruta de acceso. 
     Con datos tabulares no se puede hacer mucho a menos que se cuente con un álgebra capaz de transformar 
     una o más tablas en una nueva tabla (por ejemplo, el álgebra relacional). 
-    Estos mundos aparentemente no relacionadas tienen algo en común y, como Peter Buneman describe, 
+    Estos mundos aparentemente no relacionados tienen algo en común y, como Peter Buneman describe, 
     es posible construir un lenguaje de consulta capaz de manejar ambos. 
     En esta charla voy a presentar un borrador de una herramienta de consulta de archivos 
     basada en estas ideas.
@@ -80,12 +80,12 @@ hyper_linda:
   full_name: Linda Sandvik
   company: Code Club
   bio: |
-    Linda Sandvik es el co-fundadora de <a href="http://codeclubworld.org/">Code Club</a>, una
+    Linda Sandvik es co-fundadora de <a href="http://codeclubworld.org/">Code Club</a>, una
     iniciativa mundial que hace que la programación sea accesible para niños de 9 a 11 años.
     Code Club <a href="https://www.codeclub.org.uk/about">ha nacido en el Reino Unido</a>, y ya 
     existen clubes en muchos países. Esperamos que Argentina también pueda seguir el ejemplo.
     La invitamos porque compartimos la idea de que
-    <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducir a los niños a la programación</a>  es esencial,
+    <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducir a los niños a la programación</a> es esencial,
     y tenemos que aprovechar todas las oportunidades para mejorar la enseñanza.
 
 poteland:
@@ -98,7 +98,7 @@ poteland:
     Tiene varios años de experiencia programando Ruby/Rails, contribuyendo a proyectos open-source y
     actualmente trabaja para un startup muy divertido llamado Vivid Cortex. Apasionado por el software 
     minimalista, la filosofía Unix, hacer las cosas bien, divertirse con sus colegas y usar espacios en lugar 
-    de tabs, PoTe tiene una relación muy poco saludable con los {mustaches}, y está siempre dispuesto a hablar sobre
+    de tabs. PoTe tiene una relación muy poco saludable con los {mustaches}, y está siempre dispuesto a hablar sobre
     los problemas de las optimizaciones prematuras a cambio de una cerveza.
   title: Las 50 sombras de MVC
   abstract: | 
@@ -107,11 +107,11 @@ poteland:
     de qué hablamos cuando nos referimos a él: todo nuestro código está dentro de los directorios
     model, views y controllers! Deberíamos saber lo que hacemos, no?
     Así como la orientación a objetos, el patrón Model-View-Controller es uno de los muchos conceptos
-    tan populares como manoseados en la programación moderna. Cuál era la idea original de este patrón?
-    Cómo se usaba allá por los 70s, cuando fue propuesto como parte de Smalltalk? Cuánto lo hemos modificado
-    para adaptarlo a las aplicaciones web? Cómo podemos aplicar esto a nuestro trabajo hoy en 2013?
-    Es necesariamente algo malo alterar el patrón? 
-    En esta charla, veremos los diferentes aspectos del patrón MVC, y sus cambios desde el nacimiento
+    tan populares como manoseados en la programación moderna. ¿Cuál era la idea original de este patrón?
+    ¿Cómo se usaba allá por los 70s, cuando fue propuesto como parte de Smalltalk? ¿Cuánto lo hemos modificado
+    para adaptarlo a las aplicaciones web? ¿Cómo podemos aplicar esto a nuestro trabajo hoy en 2013?
+    ¿Es necesariamente algo malo alterar el patrón? 
+    En esta charla veremos los diferentes aspectos del patrón MVC, y sus cambios desde el nacimiento
     hasta la actualidad. Qué tener en mente sobre él, en contraposición a la implementación de un 
     framework en particular, y cómo conocerlo nos ayudará a ser mejores programadores.
 
@@ -124,14 +124,14 @@ kurko:
     Trabaja desde 2011 en Stack Builders, una empresa radicada en NY. Alexandre ha participado de conferencias 
     sobre Ruby en Sudamérica, Europa y Japón. Como consultor ha tenido la oportunidad de participar en 
     muchos proyectos a punto de morir, experimentando y observando los distintos aspectos, desde el 
-    diseño del código hasta la forma de manejar las expectativas del cliente. En su charla él nos va a compartir
+    diseño del código hasta la forma de manejar las expectativas del cliente. En su charla, él nos va a compartir
     un poco de su experiencia.
   title: | 
-    Olvidate de las clases, bienvenidos los objetos
+    Olvídate de las clases, bienvenidos los objetos
   abstract: | 
     Esta charla es una historia acerca de una época en que la programación orientada a objetos era sobre 
     objetos y mensajes, y no acerca de clases y métodos; o de comportamientos y no de esquemas.
-    Discutiremos los objetivos la orientación a objetos, y qué significa hablar de que OO se trata de
+    Discutiremos los objetivos de la orientación a objetos, y qué significa hablar de que OO se trata de
     mensajes. Viajaremos al pasado, y luego volveremos al futuro en nuestra cultura de Programación Orientada
     a clases, y cómo es que podemos arreglarlo haciendo verdadera orientación a objetos en Ruby.
     Al hacer esto, comenzaremos a entender por qué los principios como SOLID y Demeter existen para 
@@ -152,11 +152,11 @@ saltinejustine:
   title: | 
     Escondamos los cuchillos: Podemos trabajar juntos!
   abstract: | 
-    Mantener una buena relación entre diseñadores y programadores no es tarea fácil.
-    Aunque es fundamental para el funcionamiento de un buen equipo
-    Qué aspectos se deben trabajar? Qué herramientas usar?
-    Cómo manejarse en equipos que comparten oficina o en equipos remotos? 
-    Cómo compartir información y recursos? Cómo explicar cuestiones técnicas al diseñador?
+    Mantener una buena relación entre diseñadores y programadores no es tarea fácil,
+    aunque es fundamental para el funcionamiento de un buen equipo.
+    ¿Qué aspectos se deben trabajar? ¿Qué herramientas usar?
+    ¿Cómo manejarse en equipos que comparten oficina o en equipos remotos? 
+    ¿Cómo compartir información y recursos? ¿Cómo explicar cuestiones técnicas al diseñador?
     Discutiremos los distintos aspectos del funcionamiento del equipo y cómo solucionar las diferencias.
 
 runixo:
@@ -165,10 +165,10 @@ runixo:
   company: Sumavisos/Properati
   github: runa
   bio: | 
-    Programador, desde chico. Perl, php, javascript, python, ruby (en orden cronológico). Co-fundador de Sumavisos (en RoR) y Properati (Sinatra).
+    Programador, desde chico. Perl, PHP, JavaScript, Python, Ruby (en orden cronológico). Co-fundador de Sumavisos (en RoR) y Properati (Sinatra).
   title: IPython Notebook (con Ruby!)
   abstract: | 
-    IPython notebook facilita una manera interesante de desarrollar 'documentos vivos', es decir, código mezclado con texto, explicaciones, gráficos, mapas, etc. Es una interfaz muy interesante para probar ideas, más cómodo que un REPL y muy poderoso. Estuvimos hackeando un "kernel ruby" para ipython; que usa la interfaz de ipython notebook pero los `eval` los hace un intérprete ruby; que usamos diariamente para explorar ideas, bucear entre los datos de Properati o generar reportes
+    IPython notebook facilita una manera interesante de desarrollar 'documentos vivos', es decir, código mezclado con texto, explicaciones, gráficos, mapas, etc. Es una interfaz muy interesante para probar ideas, más cómodo que un REPL y muy poderoso. Estuvimos hackeando un "kernel ruby" para ipython; que usa la interfaz de ipython notebook pero los `eval` los hace un intérprete ruby; que usamos diariamente para explorar ideas, bucear entre los datos de Properati o generar reportes.
 
 cuerbot:
   twitter: cuerbot
@@ -179,7 +179,7 @@ cuerbot:
     Bruno (o elcuervo para los amigos) fue criado por un grupo de salvajes de la tribu de telecomunicaciones, ellos lo llevaron al mundo de lo distribuido y protocolos asíncronos. El avance de la ciudad en las tierras de estos salvajes y las olas migratorias del pingüino emperador llevo a este desarrollador a las tierras del HTTP en donde busca unir a los dos mundos. Fanático de los protocolos y la investigación. Es opensource-dependiente, mantiene varios proyectos, es de Géminis y disfruta de largas caminatas en la playa y cenas a la luz de las velas.
   title: Break the Rules
   abstract: | 
-    Políticamente incorrecta y socialmente cuestionable. Esta charla busca sacudir nuestros cimientos como desarrolladores… como ciudadanos de Internet. Un viaje desde los orígenes del pulmón tecnológico de nuestra sociedad, pasando por la democratización de su acceso y finalizando con los hechos lamentables de privacidad que sacuden Internet cada ciertos meses. Estamos haciendo todo lo que podemos para cuidar nuestra Internet? Es Internet lo que debería ser? Cuál es el rol del desarrollador en un mundo que se apoya en la web en su día a día?
+    Políticamente incorrecta y socialmente cuestionable. Esta charla busca sacudir nuestros cimientos como desarrolladores… como ciudadanos de Internet. Un viaje desde los orígenes del pulmón tecnológico de nuestra sociedad, pasando por la democratización de su acceso y finalizando con los hechos lamentables de privacidad que sacuden Internet cada ciertos meses. ¿Estamos haciendo todo lo que podemos para cuidar nuestra Internet? ¿Es Internet lo que debería ser? ¿Cuál es el rol del desarrollador en un mundo que se apoya en la web en su día a día?
 
 djanowski:
   twitter: djanowski
@@ -187,10 +187,10 @@ djanowski:
   company: Educabilia.com
   github: djanowski
   bio: | 
-    Damián es programador desde hace muchos años, pero logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca tuvo que programar una aplicación de escritorio. Después de pasos fructíferos por tecnologías de todo color y tendencia política, desde hace 8 años programa principalmente en Ruby. Fue uno de los primeros en adoptar Redis y hoy la usa como única base de datos en Educabilia, el startup que cofundó hace dos años. En su tiempo libre le gustaría empezar a usar Go en producción.    
+    Damián es programador desde hace muchos años, pero logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca tuvo que programar una aplicación de escritorio. Después de pasos fructíferos por tecnologías de todo color y tendencia política, programa principalmente en Ruby desde hace 8 años. Fue uno de los primeros en adoptar Redis y hoy la usa como única base de datos en Educabilia, el startup que co-fundó hace dos años. En su tiempo libre, le gustaría empezar a usar Go en producción.    
   title: "Redis: más allá del caché y las colas"
   abstract: | 
-    Redis nació como un Memcached persistente. Y es por ese pasado sombrío que muchos lo consideran solo una buena alternativa para cachear cosas. Sin embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un servidor de estructuras de datos. Redis provee operaciones atómicas sobre tipos de datos primitivos (strings, listas, conjuntos, conjuntos ordenados y hashes) que dan mucha flexibilidad para pensar la mejor manera de guardar los datos de nuestra aplicación. Esto, sumado a otras funcionalidades (como replicación, dos estrategias de persistencia, transacciones y scripting en Lua) hacen que Redis sea una opción muy interesante a la hora de elegir la base de datos para nuestro proyecto. En esta charla vamos a explorar, a partir de ejemplos, los casos de uso más frecuentes en cualquier aplicación web y cómo se puede usar Redis para resolverlos. También se van a mostrar los pitfalls más comunes y qué estrategias se pueden usar para evitarlos.
+    Redis nació como un Memcached persistente. Y es por ese pasado sombrío que muchos lo consideran sólo una buena alternativa para implementar caching de cosas. Sin embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un servidor de estructuras de datos. Redis provee operaciones atómicas sobre tipos de datos primitivos (strings, listas, conjuntos, conjuntos ordenados y hashes) que dan mucha flexibilidad para pensar la mejor manera de guardar los datos de nuestra aplicación. Ésto, sumado a otras funcionalidades (como replicación, dos estrategias de persistencia, transacciones y scripting en Lua) hacen que Redis sea una opción muy interesante a la hora de elegir la base de datos para nuestro proyecto. En esta charla vamos a explorar, a partir de ejemplos, los casos de uso más frecuentes en cualquier aplicación web y cómo se puede usar Redis para resolverlos. También se van a mostrar los pitfalls más comunes y qué estrategias se pueden usar para evitarlos.
 
 xymbol:
   twitter: xymbol
@@ -202,8 +202,8 @@ xymbol:
     las escenas durante gran parte de los últimos 15 años: ha implementado los primeros motores de 
     búsqueda para Clarín y La Nación, los dos diarios más grandes de Argentina, y fue el director 
     técnico de Yahoo Argentina desde su lanzamiento. Adrián es ahora desarrollador Ruby en WyeWorks. 
-    Un entusiasta de la tecnología de toda la vida con una formación en ingeniería mecánica, Adrián se 
-    tan cómo escribiendo Ruby, JavaScript o Objective-C, como reparando motores de motocicletas o afinando 
+    Un entusiasta de la tecnología de toda la vida con una formación en ingeniería mecánica. Adrián disfruta 
+    tanto escribiendo Ruby, JavaScript o Objective-C; como reparando motores de motocicletas o afinando 
     la tabla de snowboard perfecta.
   company: 
   title: Lo suficiente de Unix como para ser peligroso
@@ -212,7 +212,7 @@ xymbol:
     como OS X o Linux, la mayor parte de los rubyistas nunca han escribo código que tome ventaja de
     los conceptos que hicieron de Unix un sistema operativo legendario.
     En esta charla veremos procesos, señales, pipes, y otras características "exóticas" de Unix disponibles
-    en Ruby, usando un enfocre claro de problemas y soluciones. Para cada tema, veremos ejemplos de código 
+    en Ruby, usando un enfoque claro de problemas y soluciones. Para cada tema, veremos ejemplos de código 
     de las gemas más populares, así como casos de uso concretos.
 
 spastorino:
@@ -224,7 +224,7 @@ spastorino:
     Santiago es Rails Core Team Member, desarrollador Open Source apasionado y Co-Fundador de WyeWorks.
   title: Del trabajo a la pasión
   abstract: | 
-    La charla trata de como logré convertir mis pasiones profesionales en mi trabajo diario. La misma no pretende ser una receta de lo que hay que hacer, simplemente porque no hay receta :), es un humilde punto de vista para motivar a la gente que se sienta identificada de que es posible vivir de lo que a uno le gusta o de lo que a uno le apasiona. En la misma cuento cómo logre vivir de lo que me apasiona construyendo lentamente mi empresa de desarrollo de software WyeWorks y contribuyendo a Ruby on Rails. Enumero mis pasiones en la charla: alta calidad, alto impacto, desafíos y aprender. Y Defino el éxito en función de vivir de tus pasiones, explicando que se suele relacionar el éxito con los negocios y/o directamente con el dinero. Para mi eso es completamente secundario, que en la sociedad que vivimos es un vehículo para otras cosas pero no un fin. Las personas nos podemos sentir exitosas si logramos ser lo más felices posible.
+    La charla trata de como logré convertir mis pasiones profesionales en mi trabajo diario. La misma no pretende ser una receta de lo que hay que hacer, simplemente porque no hay receta :). Es un humilde punto de vista para motivar a la gente que se sienta identificada de que es posible vivir de lo que a uno le gusta o de lo que a uno le apasiona. En la misma, cuento cómo logre vivir de lo que me apasiona construyendo lentamente mi empresa de desarrollo de software WyeWorks y contribuyendo a Ruby on Rails. Enumero mis pasiones en la charla: alta calidad, alto impacto, desafíos y aprender. Y defino el éxito en función de vivir de tus pasiones, explicando que se suele relacionar el éxito con los negocios y/o directamente con el dinero. Para mí, eso es completamente secundario ya que en la sociedad que vivimos es un vehículo para otras cosas pero no un fin. Las personas nos podemos sentir exitosas si logramos ser lo más felices posible.
 
 ajlopez:
   twitter: ajlopez
@@ -232,7 +232,7 @@ ajlopez:
   company: Southworks
   github: ajlopez
   bio: | 
-    35 años haciendo software. Ha programado con tarjetas perforadas, Algol/W, Fortran, COBOL, C, C++, PL/I, RPG, mainframes, minis, PCs, Pick System, CP/M, DOS, Xenix... Ok, creo que ya se entiende la idea ;-) Ha escrito un libro sobre programación Java en 1997. Escribe código todos los días, usando TDD, Java, PHP, C#, JavaScript/Node.js. Es un nerd de los lenguajes de programación. Ha implementado Python, Ruby, Smalltalk y otros lenguajes en distintos ambientes.
+    35 años haciendo software. Ha programado con tarjetas perforadas, Algol/W, Fortran, COBOL, C, C++, PL/I, RPG, mainframes, minis, PCs, Pick System, CP/M, DOS, Xenix... Ok, creo que ya se entiende la idea ;-). Ha escrito un libro sobre programación Java en 1997. Escribe código todos los días, usando TDD, Java, PHP, C#, JavaScript/Node.js. Es un nerd de los lenguajes de programación. Ha implementado Python, Ruby, Smalltalk y otros lenguajes en distintos ambientes.
   title: Implementando Ruby
   abstract: | 
     Luego de un rápido repaso por las estrategias de implementación de Ruby, veremos una implementación
@@ -247,7 +247,7 @@ plexus:
   title: | 
     Lingüística Web, buscando una mayor fluidez.
   abstract: | 
-    Las cadenas de texto plano son el pan de cada día en la programación web. Al programar para la web, debemos hacer malabares entre una increíble cantidad de diferentes lenguajes. Sin embargo, estas cadenas que generamos son en realidad representaciones en texto plano de distintas estructuras de datos. Tienen que ser serializadas para poder ser enviadas a través de un cable, pero eso no pasa hasta que los datos dejan la aplicación. En cambio, a menudo terminamos generando y manipulando representaciones textuales directamente. Esto puede parecer fácil al principio, pero teniendo en cuenta los matices de la representación, es un trabajo duro, y el deslizamiento hacia arriba nos puede costar muy caro, basta pensar en los ataques de inyección SQL o cross-site scripting. La seguridad no es la única razón para repensar cómo nos ocupamos del I/O de texto plano en nuestras aplicaciones. Mediante la manipulación de estructuras de datos en lugar de cadenas, podríamos estar programando y razonando a un nivel superior. En esta charla vamos a tomar cross-site scripting (XSS) como un ejemplo de un problema de seguridad que se produce en el nivel de lenguaje. Mediante el uso de un nuevo enfoque para generar HTML, podemos evitar XSS en el plano arquitectónico.
+    Las cadenas de texto plano son el pan de cada día en la programación web. Al programar para la web, debemos hacer malabares entre una increíble cantidad de lenguajes diferentes. Sin embargo, estas cadenas que generamos son en realidad representaciones en texto plano de distintas estructuras de datos. Tienen que ser serializadas para poder ser enviadas a través de un cable, pero eso no pasa hasta que los datos dejan la aplicación. En cambio, a menudo terminamos generando y manipulando representaciones textuales directamente. Esto puede parecer fácil al principio, pero teniendo en cuenta los matices de la representación, es un trabajo duro, y el deslizamiento hacia arriba nos puede costar muy caro, basta pensar en los ataques de inyección SQL o cross-site scripting. La seguridad no es la única razón para repensar cómo nos ocupamos del I/O de texto plano en nuestras aplicaciones. Mediante la manipulación de estructuras de datos en lugar de cadenas, podríamos estar programando y razonando a un nivel superior. En esta charla vamos a tomar cross-site scripting (XSS) como un ejemplo de un problema de seguridad que se produce en el nivel del lenguaje. Mediante el uso de un nuevo enfoque para generar HTML, podemos evitar XSS en el plano arquitectónico.
 
 hannelita:
   twitter: hannelita
@@ -260,7 +260,7 @@ hannelita:
     Es además amante del café, especialmente los de Starbucks.
   title: Consejos para el código Ruby en el servidor en las aplicaciones móviles
   abstract: | 
-    ¿Tu aplicación móvil tiene cada día más y más usuarios? Sientes que necesitas recursos de un servidor pero no conoces una buena manera de crear un backend? 
+    ¿Tu aplicación móvil tiene cada día más y más usuarios? ¿Sientes que necesitas recursos de un servidor pero no conoces una buena manera de crear un backend? 
     Esta charla puede ayudarte mostrándote cómo utilizar Ruby con algunos frameworks para resolver el problema de los backends para aplicaciones móviles! 
     Las aplicaciones móviles han sido cada vez más populares. Pero detrás de grandes aplicaciones móviles ... hay una linda aplicación de backend. 
     Ruby es una buena manera de desarrollar aplicaciones back-end para entornos móviles. 
