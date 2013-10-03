@@ -5,16 +5,16 @@ sintaxi:
   company: Harp platform
   bio: |
     Brock Whitten is the author of HarpJS and co-creator of PhoneGap.
-    He's a strong advocate of open web standards.<br>
+    He's a strong advocate of open web standards.
     His latest project, Harp, is a zero configuration publishing
     platform integrated with Dropbox. Its webserver, which has
     built-in preprocessing for several file formats, is open source
     software freely available at <a href="http://harpjs.com/">http://harpjs.com/</a>, as well as the
-    Harp Specification, which can be accessed at <a href="http://spec.harp.io">http://spec.harp.io</a><br>
+    Harp Specification, which can be accessed at <a href="http://spec.harp.io">http://spec.harp.io</a>
     Enough of technicalities. I met Brock at RedisConf 2012. He is a
     great guy, very smart and with very concrete ideas about software
     design. He was a rubyist once, but then node.js won his heart.
-    Right now, like most of us, he's a polyglot developer.<br>
+    Right now, like most of us, he's a polyglot developer.
     We invited him to speak at RubyConf Argentina 2012 because we were
     impressed by the clarity with which he can discuss software
     complexity and provide simple solutions based on some core
@@ -33,12 +33,10 @@ tef:
     cultural problems around programming, you will realise we all fit
     that definition. The good thing is he has some great ideas to help
     us fix those issues.
-    <br>
     He is well known for his <a href="http://programmingisterrible.com/">Programming Is Terrible</a> blog, a
     collection of great articles and presentations about programming.
     Watching <a href="http://www.youtube.com/watch?v=csyL9EC0S0c">the talk</a> that inspired the name of his website
     should be mandatory for all programmers.
-    <br>
     Recently, he has joined Code Club, a worldwide network of coding
     clubs for children aged 9–11. We invited him to RubyConf Argentina
     because he has a lot of experience analyzing the defects in our
@@ -56,7 +54,6 @@ cherkaos:
   title: Gluing Data Together
   abstract: | 
     Information comes in different structures and forms. Most commonly we see either tabular or hierarchical representations. When working with hierarchical data, retrieving information is usually easy as the access paths have been precomputed for you. Things become more difficult when you want to change an access path. With tabular data you cannot do much unless you have an algebra capable of transforming one or more tables into a new table (e.g. relational algebra). These seemingly unrelated worlds have something in common and, as Peter Buneman et al describe, it is possible to construct a query language capable of handling both. In this talk I will introduce comp - a file query tool based on these ideas.
-    
 
 janogonzalez:
   twitter: janogonzalez
@@ -65,7 +62,9 @@ janogonzalez:
   company: HopIn
   bio: |
     Jano is a programmmer and amateur musician. He lives in Santiago de Chile, and works as CTO for HopIn.
-    He spoke at RubyConf Uruguay 2011 and 2013, and also at RubyConf Argentina 2012. He is a great friend of all of us, so we call him "Jano of Americas"
+    He spoke at RubyConf Uruguay 2011 and 2013, and also at
+    RubyConf Argentina 2012. He is a great friend of all of us, so we
+    call him "Jano of the Americas"
 
 hyper_linda:
   twitter: hyper_linda
@@ -76,7 +75,6 @@ hyper_linda:
     worldwide initiative that makes programming accessible to children
     aged 9-10. <a href="https://www.codeclub.org.uk/about">Created in the UK</a>, there are clubs in
     many countries and hopefully Argentina can follow the example.
-    <br>
     We invited her because we share the view that 
     <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducing children to programming is essential</a>, 
     and we need to grasp every opportunity to become better at teaching.
@@ -309,11 +307,10 @@ pellegrino:
   bio: |
     Vitor moved from Brazil last year to join SoundCloud. He has a lot of experience working with Ruby and 
     Rails for companies in Brazil and US. He says he speaks bad Spanish but it's not true. 
-    <br>
     Sergio is a huge open source enthusiast and an organizer in major events in Europe. 
     Not only he organizes them, he is also a seasoned speaker in those events. After working several years 
     in Spain, he moved to Berlin to join SoundCloud. He just wrote my bio above.
-  title: "Splittling a Monorail: Micro-services and beyond"
+  title: "Splitting a Monorail: Micro-services and beyond"
   abstract: |
     For 6 years, SoundCloud has been running on Rails, while growing from 0 to millions of users. Also, from 
     a handful of people, to over two hundred employees. As a part of the challenges, we had to split our 

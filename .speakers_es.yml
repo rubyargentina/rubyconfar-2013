@@ -5,23 +5,22 @@ sintaxi:
   company: Harp platform
   bio: |
     Brock Whitten es el autor de HarpJS y co-creador de PhoneGap.
-    Es un firme defensor de los estándares abiertos en la web. <br>
+    Es un firme defensor de los estándares abiertos en la web. 
     Su último proyecto, Arpa, es una plataforma de publicación, integrada con Dropbox
     que no requiere configuración. Su servidor web, que tiene
     incorporado el preprocesamiento de varios formatos de archivo, es open-source
     y está disponible en <a href="http://harpjs.com/">http://harpjs.com/</a>, así como la
     especificación de Harp, que se encuentra en <a href="http://spec.harp.io">http://spec.harp.io</a>
-    <br>
     Basta ya de tecnicismos. Conocí a Brock en RedisConf 2012. Él es una
     gran tipo, muy inteligente y con ideas muy concretas sobre el diseño de software
     Fue Rubyista, pero luego Node.js ganó su corazón. En este momento, al igual que 
     la mayoría de nosotros, es un desarrollador políglota.
-    <br>
     Lo invitamos a hablar en RubyConf Argentina 2012 porque estamos
     impresionados por la claridad con la que se puede hablar de la complejidad del
     software y ofrecer soluciones simples basadas en principios básicos.
     Se ha presentado en varias conferencias en los últimos años y es un placer 
     tenerlo como uno de nuestros oradores.
+
 tef:
   twitter: tef
   github: tef
@@ -33,19 +32,17 @@ tef:
     sobre lo social y los problemas culturales en torno a la programación, te darás cuenta de 
     que todo se ajusta a esa definición. Lo bueno es que tiene algunas buenas ideas para ayudar a
     a arreglar esos problemas.
-    <br>
     Es conocido por su weblog <a href="http://programmingisterrible.com/">programming is terrible</a>, una
     recopilación de artículos y presentaciones sobre programación.
     Escuchar <a href="http://www.youtube.com/watch?v=csyL9EC0S0c">la charla</a> que inspiró el nombre de su 
     sitio web, debería ser algo obligatorio para todos los programadores.
-    <br>
     Recientemente, se ha unido Code Club, una red mundial de clubes de programación para 
     niños de 9 a 11 años de edad. 
-    <br>
     Lo invitamos a RubyConf Argentina porque tiene un montón de experiencia en el análisis 
     de los defectos de nuestro ambiente y especialmente cómo optimizarlo para la enseñanza y el
     aprendizaje. Creemos que es una gran oportunidad para nosotros para conocer mejor
     sus ideas y utilizar sus consejos para mejorar nuestra comunidad.
+
 cherkaos:
   full_name: Ostap Cherkashin
   company: Mingle
@@ -59,17 +56,13 @@ cherkaos:
   abstract: | 
     La información se presenta en diferentes estructuras y formas. Lo más común es ver
     representaciones tabulares o jerárquicas. 
-    <br>
     Al trabajar con datos jerárquicos, la recuperación de información suele ser fácil, ya que las 
     vías de acceso se determinan previamente. Las cosas se hacen más difíciles cuando se quiere 
     cambiar una ruta de acceso. 
-    <br>
     Con datos tabulares no se puede hacer mucho a menos que se cuente con un álgebra capaz de transformar 
     una o más tablas en una nueva tabla (por ejemplo, el álgebra relacional). 
-    <br>
     Estos mundos aparentemente no relacionadas tienen algo en común y, como Peter Buneman describe, 
     es posible construir un lenguaje de consulta capaz de manejar ambos. 
-    <br>
     En esta charla voy a presentar un borrador de una herramienta de consulta de archivos 
     basada en estas ideas.
 
@@ -91,7 +84,6 @@ hyper_linda:
     iniciativa mundial que hace que la programación sea accesible para niños de 9 a 11 años.
     Code Club <a href="https://www.codeclub.org.uk/about">ha nacido en el Reino Unido</a>, y ya 
     existen clubes en muchos países. Esperamos que Argentina también pueda seguir el ejemplo.
-    <br>
     La invitamos porque compartimos la idea de que
     <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducir a los niños a la programación</a>  es esencial,
     y tenemos que aprovechar todas las oportunidades para mejorar la enseñanza.
@@ -119,7 +111,6 @@ poteland:
     Cómo se usaba allá por los 70s, cuando fue propuesto como parte de Smalltalk? Cuánto lo hemos modificado
     para adaptarlo a las aplicaciones web? Cómo podemos aplicar esto a nuestro trabajo hoy en 2013?
     Es necesariamente algo malo alterar el patrón? 
-    <br>
     En esta charla, veremos los diferentes aspectos del patrón MVC, y sus cambios desde el nacimiento
     hasta la actualidad. Qué tener en mente sobre él, en contraposición a la implementación de un 
     framework en particular, y cómo conocerlo nos ayudará a ser mejores programadores.
@@ -334,7 +325,6 @@ elbrujohalcon:
     de los aspectos donde Erlang más se destaca. Y además hemos descubierto que implementar este tipo de
     servicios, incluso cuando parecen complejos, no es tan difícil si se usan las herramienta apropiadas
     (como cowboy, SSE y sumo_db).
-    <br>
     En esta charla, voy a mostrar cuáles son los pasos necesarios para desarrollar un servicio de este tipo.
 
 pellegrino:
@@ -345,7 +335,7 @@ pellegrino:
   bio: |
     Vitor se mudó de Brasil el año pasado para unirse a SoundCloud. Tiene mucha experiencia trabajando
     con Ruby y Rails para distintas empresas en Brasil y USA. Dice que habla mal el español, pero eso no es cierto.
-    <br>
+    
     Sergio es un gran entusiasta del open-source y es organizador de grandes eventos en Europa.
     No sólo los organiza, sino que también suele ser orador en dichos eventos. Luego de trabajar durante
     años en España, se ha mudado a Berlin para unirse a SoundCloud. 
@@ -354,7 +344,6 @@ pellegrino:
     Por 6 años, SoundCloud ha estado funcionando en Rails, mientras crecía de cero a millones de usuarios.
     Además, pasó de un puñado de personas a 200 empleados. Como parte de los desafíos, tuvimos que dividir
     nuestra aplicación Rails monolítica en muchos micro-servicios.
-    <br>
     En esta charla, compartiremos nuestros descubrimientos sobre cómo ejecutar e integrar muchos servicios,
     mientras escala, no sólo el tráfico, sino también el tamaño del equipo.
 

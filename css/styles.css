@@ -307,7 +307,16 @@ div.session {
   display: inline;
 }
 
-.session > .txt > h3{ margin: 0;}
+.session > .txt > h3 {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.session > .txt > h4 {
+	margin: 0;
+	font-size: 1.0em;
+}
+
 .session > .txt > p{ margin: 0 0 10px 0; }
 
 .session > .txt > h3 a {text-decoration: none;}
