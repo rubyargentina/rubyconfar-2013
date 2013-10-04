@@ -324,12 +324,12 @@ punchgirls:
   company: PunchGirls
   bio: |
     Mayn Ektvedt Kjær is a computer engineering student living in Buenos Aires. At the moment dedicating 
-    herself to write her master thesis and the Rails Girls Summer of Code project.
+    herself to write her master thesis and the 
+    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code project</a>.
     Cecilia Rivero is a former sound editor for films and television. Since last year she switched 
     profession to become a full-time developer, something that was a hobby of hers for years.
-    Mayn and Cecilia form Punchgirls, one of the participating teams in the 
-    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code 2013</a> 
-    program. They are developing an 
+    Mayn and Cecilia form Punchgirls, one of the participating teams in the Rails Girls Summer 
+    of Code 2013 program. They are developing an 
     <a href="https://github.com/punchgirls/job_board">Open Source job board</a> from scratch using Ruby, 
     Cuba and Redis. Mentored by <a href="http://twitter.com/soveran">Michel Martens</a>, 
     <a href="http://twitter.com/djanowski">Damián Janowski</a> and
