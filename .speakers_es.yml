@@ -5,7 +5,7 @@ sintaxi:
   company: Harp platform
   bio: |
     Brock Whitten es el autor de HarpJS y co-creador de PhoneGap.
-    Es un firme defensor de los estándares abiertos en la web. 
+    Es un firme defensor de los estándares abiertos en la web.
     Su último proyecto, Arpa, es una plataforma de publicación, integrada con Dropbox
     que no requiere configuración. Su servidor web, que tiene
     incorporado el preprocesamiento de varios formatos de archivo, es open-source
@@ -18,7 +18,7 @@ sintaxi:
     Lo invitamos a hablar en RubyConf Argentina 2013 porque estamos
     impresionados por la claridad con la que se puede hablar de la complejidad del
     software y ofrecer soluciones simples basadas en principios básicos.
-    Se ha presentado en varias conferencias en los últimos años y es un placer 
+    Se ha presentado en varias conferencias en los últimos años y es un placer
     tenerlo como uno de nuestros oradores.
 
 tef:
@@ -27,18 +27,18 @@ tef:
   full_name: Thomas Edward Figg
   company: Code Club
   bio: |
-    Thomas Edward Figg es un alborotador, un mal programador, un pícaro de escasos resultados. 
-    Pero si prestas atención a la forma en que define a sí mismo, y en especial a sus estudios 
-    sobre lo social y los problemas culturales en torno a la programación, te darás cuenta de 
+    Thomas Edward Figg es un alborotador, un mal programador, un pícaro de escasos resultados.
+    Pero si prestas atención a la forma en que define a sí mismo, y en especial a sus estudios
+    sobre lo social y los problemas culturales en torno a la programación, te darás cuenta de
     que todo se ajusta a esa definición. Lo bueno es que tiene algunas buenas ideas para ayudar
     a arreglar esos problemas.
     Es conocido por su weblog <a href="http://programmingisterrible.com/">programming is terrible</a>, una
     recopilación de artículos y presentaciones sobre programación.
-    Escuchar <a href="http://www.youtube.com/watch?v=csyL9EC0S0c">la charla</a> que inspiró el nombre de su 
+    Escuchar <a href="http://www.youtube.com/watch?v=csyL9EC0S0c">la charla</a> que inspiró el nombre de su
     sitio web, debería ser algo obligatorio para todos los programadores.
-    Recientemente, se ha unido Code Club, una red mundial de clubes de programación para 
-    niños de 9 a 11 años de edad. 
-    Lo invitamos a RubyConf Argentina porque tiene un montón de experiencia en el análisis 
+    Recientemente, se ha unido Code Club, una red mundial de clubes de programación para
+    niños de 9 a 11 años de edad.
+    Lo invitamos a RubyConf Argentina porque tiene un montón de experiencia en el análisis
     de los defectos de nuestro ambiente y especialmente cómo optimizarlo para la enseñanza y el
     aprendizaje. Creemos que es una gran oportunidad para nosotros para conocer mejor
     sus ideas y utilizar sus consejos para mejorar nuestra comunidad.
@@ -48,22 +48,22 @@ cherkaos:
   company: Mingle
   twitter: cherkaos
   github: ostap
-  bio: | 
-    Ostap Cherkashin es co-fundador de mingle.io, una empresa con el objetivo de simplificar la 
-    integración de datos abiertos en las aplicaciones. Él es el desarrollador principal 
+  bio: |
+    Ostap Cherkashin es co-fundador de mingle.io, una empresa con el objetivo de simplificar la
+    integración de datos abiertos en las aplicaciones. Él es el desarrollador principal
     de <a href="https://github.com/ostap/comp">comp</a> y co-creador de <a href="http://bandilab.org/">bandicoot</a>.
   title: Gluing Data Together
-  abstract: | 
+  abstract: |
     La información se presenta en diferentes estructuras y formas. Lo más común es ver
-    representaciones tabulares o jerárquicas. 
-    Al trabajar con datos jerárquicos, la recuperación de información suele ser fácil, ya que las 
-    vías de acceso se determinan previamente. Las cosas se hacen más difíciles cuando se quiere 
-    cambiar una ruta de acceso. 
-    Con datos tabulares no se puede hacer mucho a menos que se cuente con un álgebra capaz de transformar 
-    una o más tablas en una nueva tabla (por ejemplo, el álgebra relacional). 
-    Estos mundos aparentemente no relacionados tienen algo en común y, como Peter Buneman describe, 
-    es posible construir un lenguaje de consulta capaz de manejar ambos. 
-    En esta charla voy a presentar un borrador de una herramienta de consulta de archivos 
+    representaciones tabulares o jerárquicas.
+    Al trabajar con datos jerárquicos, la recuperación de información suele ser fácil, ya que las
+    vías de acceso se determinan previamente. Las cosas se hacen más difíciles cuando se quiere
+    cambiar una ruta de acceso.
+    Con datos tabulares no se puede hacer mucho a menos que se cuente con un álgebra capaz de transformar
+    una o más tablas en una nueva tabla (por ejemplo, el álgebra relacional).
+    Estos mundos aparentemente no relacionados tienen algo en común y, como Peter Buneman describe,
+    es posible construir un lenguaje de consulta capaz de manejar ambos.
+    En esta charla voy a presentar un borrador de una herramienta de consulta de archivos
     basada en estas ideas.
 
 janogonzalez:
@@ -82,7 +82,7 @@ hyper_linda:
   bio: |
     Linda Sandvik es co-fundadora de <a href="http://codeclubworld.org/">Code Club</a>, una
     iniciativa mundial que hace que la programación sea accesible para niños de 9 a 11 años.
-    Code Club <a href="https://www.codeclub.org.uk/about">ha nacido en el Reino Unido</a>, y ya 
+    Code Club <a href="https://www.codeclub.org.uk/about">ha nacido en el Reino Unido</a>, y ya
     existen clubes en muchos países. Esperamos que Argentina también pueda seguir el ejemplo.
     La invitamos porque compartimos la idea de que
     <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducir a los niños a la programación</a> es esencial,
@@ -93,15 +93,15 @@ poteland:
   full_name: Pablo Astigarraga
   company: Vivid Cortex
   github: pote
-  bio: | 
-    Más conocido como PoTe, viene del mundo Python, escribiendo aplicaciones VoIP para sistemas Asterisk. 
+  bio: |
+    Más conocido como PoTe, viene del mundo Python, escribiendo aplicaciones VoIP para sistemas Asterisk.
     Tiene varios años de experiencia programando Ruby/Rails, contribuyendo a proyectos open-source y
-    actualmente trabaja para un startup muy divertido llamado Vivid Cortex. Apasionado por el software 
-    minimalista, la filosofía Unix, hacer las cosas bien, divertirse con sus colegas y usar espacios en lugar 
+    actualmente trabaja para un startup muy divertido llamado Vivid Cortex. Apasionado por el software
+    minimalista, la filosofía Unix, hacer las cosas bien, divertirse con sus colegas y usar espacios en lugar
     de tabs. PoTe tiene una relación muy poco saludable con los {mustaches}, y está siempre dispuesto a hablar sobre
     los problemas de las optimizaciones prematuras a cambio de una cerveza.
   title: Las 50 sombras de MVC
-  abstract: | 
+  abstract: |
     En el mundo Rails estamos muy orgullosos de utilizar el patrón Model-View-Controller, es acorde
     a la forma en la que construimos aplicaciones web y hay un consenso general en el que todos sabemos
     de qué hablamos cuando nos referimos a él: todo nuestro código está dentro de los directorios
@@ -110,9 +110,9 @@ poteland:
     tan populares como manoseados en la programación moderna. ¿Cuál era la idea original de este patrón?
     ¿Cómo se usaba allá por los 70s, cuando fue propuesto como parte de Smalltalk? ¿Cuánto lo hemos modificado
     para adaptarlo a las aplicaciones web? ¿Cómo podemos aplicar esto a nuestro trabajo hoy en 2013?
-    ¿Es necesariamente algo malo alterar el patrón? 
+    ¿Es necesariamente algo malo alterar el patrón?
     En esta charla veremos los diferentes aspectos del patrón MVC, y sus cambios desde el nacimiento
-    hasta la actualidad. Qué tener en mente sobre él, en contraposición a la implementación de un 
+    hasta la actualidad. Qué tener en mente sobre él, en contraposición a la implementación de un
     framework en particular, y cómo conocerlo nos ayudará a ser mejores programadores.
 
 kurko:
@@ -120,42 +120,42 @@ kurko:
   full_name: Alexandre de Oliveira
   company: Stack Builders
   github: kurko
-  bio: | 
-    Trabaja desde 2011 en Stack Builders, una empresa radicada en NY. Alexandre ha participado de conferencias 
-    sobre Ruby en Sudamérica, Europa y Japón. Como consultor ha tenido la oportunidad de participar en 
-    muchos proyectos a punto de morir, experimentando y observando los distintos aspectos, desde el 
+  bio: |
+    Trabaja desde 2011 en Stack Builders, una empresa radicada en NY. Alexandre ha participado de conferencias
+    sobre Ruby en Sudamérica, Europa y Japón. Como consultor ha tenido la oportunidad de participar en
+    muchos proyectos a punto de morir, experimentando y observando los distintos aspectos, desde el
     diseño del código hasta la forma de manejar las expectativas del cliente. En su charla, él nos va a compartir
     un poco de su experiencia.
-  title: | 
+  title: |
     Olvidate de las clases, bienvenidos los objetos
-  abstract: | 
-    Esta charla es una historia acerca de una época en que la programación orientada a objetos era sobre 
+  abstract: |
+    Esta charla es una historia acerca de una época en que la programación orientada a objetos era sobre
     objetos y mensajes, y no acerca de clases y métodos; o de comportamientos y no de esquemas.
     Discutiremos los objetivos de la orientación a objetos, y qué significa hablar de que OO se trata de
     mensajes. Viajaremos al pasado, y luego volveremos al futuro en nuestra cultura de Programación Orientada
     a clases, y cómo es que podemos arreglarlo haciendo verdadera orientación a objetos en Ruby.
-    Al hacer esto, comenzaremos a entender por qué los principios como SOLID y Demeter existen para 
-    para ayudarnos a dejar de perder tiempo y dinero. Esta charla es para hacernos re-pensar la manera en que 
-    programamos.    
+    Al hacer esto, comenzaremos a entender por qué los principios como SOLID y Demeter existen para
+    para ayudarnos a dejar de perder tiempo y dinero. Esta charla es para hacernos re-pensar la manera en que
+    programamos.
 
 saltinejustine:
   full_name: Justine Arreche
   twitter: saltinejustine
-  bio: | 
+  bio: |
     Ella es diseñadora gráfica y de UX, graduada con un BFA en Publicidad y Diseño Gráfico, que luego dedicó
     sus primeros años a trabajar en una consultora agile en Ohio, aunque ahora trabaja en forma independiente.
-    Como alguien que viene del diseño gráfico publicitario y luego cambió de rol conociendo muy poco sobre 
+    Como alguien que viene del diseño gráfico publicitario y luego cambió de rol conociendo muy poco sobre
     programación ágil, Justine tuvo mucho que aprender en el camino y encontró un sano equilibrio trabajando
     en equipo.
-    Ella está convencida de que es importante aprender de los demás. Cuanto más sabemos sobre el trabajo del 
+    Ella está convencida de que es importante aprender de los demás. Cuanto más sabemos sobre el trabajo del
     otro, mejor podemos hacer aquello que tanto amamos hacer: crear grandes cosas para el mundo.
-  title: | 
+  title: |
     Escondamos los cuchillos: Podemos trabajar juntos!
-  abstract: | 
+  abstract: |
     Mantener una buena relación entre diseñadores y programadores no es tarea fácil,
     aunque es fundamental para el funcionamiento de un buen equipo.
     ¿Qué aspectos se deben trabajar? ¿Qué herramientas usar?
-    ¿Cómo manejarse en equipos que comparten oficina o en equipos remotos? 
+    ¿Cómo manejarse en equipos que comparten oficina o en equipos remotos?
     ¿Cómo compartir información y recursos? ¿Cómo explicar cuestiones técnicas al diseñador?
     Discutiremos los distintos aspectos del funcionamiento del equipo y cómo solucionar las diferencias.
 
@@ -164,10 +164,10 @@ runixo:
   full_name: Martín Sarsale
   company: Sumavisos/Properati
   github: runa
-  bio: | 
+  bio: |
     Programador, desde chico. Perl, PHP, JavaScript, Python, Ruby (en orden cronológico). Co-fundador de Sumavisos (en RoR) y Properati (Sinatra).
   title: IPython Notebook (con Ruby!)
-  abstract: | 
+  abstract: |
     IPython notebook facilita una manera interesante de desarrollar 'documentos vivos', es decir, código mezclado con texto, explicaciones, gráficos, mapas, etc. Es una interfaz muy interesante para probar ideas, más cómodo que un REPL y muy poderoso. Estuvimos hackeando un "kernel ruby" para ipython; que usa la interfaz de ipython notebook pero los `eval` los hace un intérprete ruby; que usamos diariamente para explorar ideas, bucear entre los datos de Properati o generar reportes.
 
 cuerbot:
@@ -175,10 +175,10 @@ cuerbot:
   full_name: Bruno Cuervo
   company: Neo
   github: elcuervo
-  bio: | 
+  bio: |
     Bruno (o elcuervo para los amigos) fue criado por un grupo de salvajes de la tribu de telecomunicaciones, ellos lo llevaron al mundo de lo distribuido y protocolos asíncronos. El avance de la ciudad en las tierras de estos salvajes y las olas migratorias del pingüino emperador llevo a este desarrollador a las tierras del HTTP en donde busca unir a los dos mundos. Fanático de los protocolos y la investigación. Es opensource-dependiente, mantiene varios proyectos, es de Géminis y disfruta de largas caminatas en la playa y cenas a la luz de las velas.
   title: Break the Rules
-  abstract: | 
+  abstract: |
     Políticamente incorrecta y socialmente cuestionable. Esta charla busca sacudir nuestros cimientos como desarrolladores… como ciudadanos de Internet. Un viaje desde los orígenes del pulmón tecnológico de nuestra sociedad, pasando por la democratización de su acceso y finalizando con los hechos lamentables de privacidad que sacuden Internet cada ciertos meses. ¿Estamos haciendo todo lo que podemos para cuidar nuestra Internet? ¿Es Internet lo que debería ser? ¿Cuál es el rol del desarrollador en un mundo que se apoya en la web en su día a día?
 
 djanowski:
@@ -186,33 +186,33 @@ djanowski:
   full_name: Damián Janowski
   company: Educabilia.com
   github: djanowski
-  bio: | 
-    Damián es programador desde hace muchos años, pero logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca tuvo que programar una aplicación de escritorio. Después de pasos fructíferos por tecnologías de todo color y tendencia política, programa principalmente en Ruby desde hace 8 años. Fue uno de los primeros en adoptar Redis y hoy la usa como única base de datos en Educabilia, el startup que co-fundó hace dos años. En su tiempo libre, le gustaría empezar a usar Go en producción.    
+  bio: |
+    Damián es programador desde hace muchos años, pero logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca tuvo que programar una aplicación de escritorio. Después de pasos fructíferos por tecnologías de todo color y tendencia política, programa principalmente en Ruby desde hace 8 años. Fue uno de los primeros en adoptar Redis y hoy la usa como única base de datos en Educabilia, el startup que co-fundó hace dos años. En su tiempo libre, le gustaría empezar a usar Go en producción.
   title: "Redis: más allá del caché y las colas"
-  abstract: | 
+  abstract: |
     Redis nació como un Memcached persistente. Y es por ese pasado sombrío que muchos lo consideran sólo una buena alternativa para implementar caching de cosas. Sin embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un servidor de estructuras de datos. Redis provee operaciones atómicas sobre tipos de datos primitivos (strings, listas, conjuntos, conjuntos ordenados y hashes) que dan mucha flexibilidad para pensar la mejor manera de guardar los datos de nuestra aplicación. Ésto, sumado a otras funcionalidades (como replicación, dos estrategias de persistencia, transacciones y scripting en Lua) hacen que Redis sea una opción muy interesante a la hora de elegir la base de datos para nuestro proyecto. En esta charla vamos a explorar, a partir de ejemplos, los casos de uso más frecuentes en cualquier aplicación web y cómo se puede usar Redis para resolverlos. También se van a mostrar los pitfalls más comunes y qué estrategias se pueden usar para evitarlos.
 
 xymbol:
   twitter: xymbol
   full_name: Adrián Mugnolo
   github: xymbol
-  bio: | 
-    Adrián se inició en la programación con C y Perl en los primeros días de la Web, pero ha estado trabajando 
-    principalmente con Ruby desde 2005. Él ha estado influyendo en silencio en la Web en Argentina detrás de 
-    las escenas durante gran parte de los últimos 15 años: ha implementado los primeros motores de 
-    búsqueda para Clarín y La Nación, los dos diarios más grandes de Argentina, y fue el director 
-    técnico de Yahoo Argentina desde su lanzamiento. Adrián es ahora desarrollador Ruby en WyeWorks. 
-    Un entusiasta de la tecnología de toda la vida con una formación en ingeniería mecánica. Adrián disfruta 
-    tanto escribiendo Ruby, JavaScript o Objective-C; como reparando motores de motocicletas o afinando 
+  bio: |
+    Adrián se inició en la programación con C y Perl en los primeros días de la Web, pero ha estado trabajando
+    principalmente con Ruby desde 2005. Él ha estado influyendo en silencio en la Web en Argentina detrás de
+    las escenas durante gran parte de los últimos 15 años: ha implementado los primeros motores de
+    búsqueda para Clarín y La Nación, los dos diarios más grandes de Argentina, y fue el director
+    técnico de Yahoo Argentina desde su lanzamiento. Adrián es ahora desarrollador Ruby en WyeWorks.
+    Un entusiasta de la tecnología de toda la vida con una formación en ingeniería mecánica. Adrián disfruta
+    tanto escribiendo Ruby, JavaScript o Objective-C; como reparando motores de motocicletas o afinando
     la tabla de snowboard perfecta.
-  company: 
+  company:
   title: Lo suficiente de Unix como para ser peligroso
-  abstract: | 
+  abstract: |
     Aún cuando la mayoría del desarrollo e implementación de aplicaciones Ruby sucede en sistemas de tipo Unix,
     como OS X o Linux, la mayor parte de los rubyistas nunca han escribo código que tome ventaja de
     los conceptos que hicieron de Unix un sistema operativo legendario.
     En esta charla veremos procesos, señales, pipes, y otras características "exóticas" de Unix disponibles
-    en Ruby, usando un enfoque claro de problemas y soluciones. Para cada tema, veremos ejemplos de código 
+    en Ruby, usando un enfoque claro de problemas y soluciones. Para cada tema, veremos ejemplos de código
     de las gemas más populares, así como casos de uso concretos.
 
 spastorino:
@@ -220,10 +220,10 @@ spastorino:
   full_name: Santiago Pastorino
   company: WyeWorks
   github: spastorino
-  bio: | 
+  bio: |
     Santiago es Rails Core Team Member, desarrollador Open Source apasionado y Co-Fundador de WyeWorks.
   title: Del trabajo a la pasión
-  abstract: | 
+  abstract: |
     La charla trata de como logré convertir mis pasiones profesionales en mi trabajo diario. La misma no pretende ser una receta de lo que hay que hacer, simplemente porque no hay receta :). Es un humilde punto de vista para motivar a la gente que se sienta identificada de que es posible vivir de lo que a uno le gusta o de lo que a uno le apasiona. En la misma, cuento cómo logre vivir de lo que me apasiona construyendo lentamente mi empresa de desarrollo de software WyeWorks y contribuyendo a Ruby on Rails. Enumero mis pasiones en la charla: alta calidad, alto impacto, desafíos y aprender. Y defino el éxito en función de vivir de tus pasiones, explicando que se suele relacionar el éxito con los negocios y/o directamente con el dinero. Para mí, eso es completamente secundario ya que en la sociedad que vivimos es un vehículo para otras cosas pero no un fin. Las personas nos podemos sentir exitosas si logramos ser lo más felices posible.
 
 ajlopez:
@@ -231,10 +231,10 @@ ajlopez:
   full_name: Angel 'Java' Lopez
   company: Southworks
   github: ajlopez
-  bio: | 
+  bio: |
     35 años haciendo software. Ha programado con tarjetas perforadas, Algol/W, Fortran, COBOL, C, C++, PL/I, RPG, mainframes, minis, PCs, Pick System, CP/M, DOS, Xenix... Ok, creo que ya se entiende la idea ;-). Ha escrito un libro sobre programación Java en 1997. Escribe código todos los días, usando TDD, Java, PHP, C#, JavaScript/Node.js. Es un nerd de los lenguajes de programación. Ha implementado Python, Ruby, Smalltalk y otros lenguajes en distintos ambientes.
   title: Implementando Ruby
-  abstract: | 
+  abstract: |
     Luego de un rápido repaso por las estrategias de implementación de Ruby, veremos una implementación
     sobre otro lenguaje y VM, con acceso a los tipos nativos, objetos y todo el ecosistema.
 
@@ -242,11 +242,11 @@ plexus:
   twitter: plexus
   full_name: Arne Brasseur
   github: plexus
-  bio: | 
+  bio: |
     Arne viene de Bélgica, y se ha enamorado de Ruby cuando finalizaba sus estudios en 2006. Pero en los siguientes años, trabajó con otras tecnologías e incluso ha pasado un tiempo en el lejano oriente aprendiendo Chino. Siempre mantuvo un ojo sobre Ruby, pero recién cuando se mudó a Berlín, hace un año, ha comenzado a usarlo en todos sus proyectos. Desde entonces ha participado muy intensamente de la comunidad, dando presentaciones en el grupo de usuarios de Ruby de Berlín, y como entrenador en Rails Girls con Sven de Travis. Es parte del Team Shoes, contribuyendo al mejor toolkit GUI en el mundo de los Rubyistas. Sus proyectos open-source son Analects y Ting, ambos relacionados al aprendizaje del idioma Chino, y Hexp una forma completamente nueva de generar HTML.
-  title: | 
+  title: |
     Lingüística Web, buscando una mayor fluidez.
-  abstract: | 
+  abstract: |
     Las cadenas de texto plano son el pan de cada día en la programación web. Al programar para la web, debemos hacer malabares entre una increíble cantidad de lenguajes diferentes. Sin embargo, estas cadenas que generamos son en realidad representaciones en texto plano de distintas estructuras de datos. Tienen que ser serializadas para poder ser enviadas a través de un cable, pero eso no pasa hasta que los datos dejan la aplicación. En cambio, a menudo terminamos generando y manipulando representaciones textuales directamente. Esto puede parecer fácil al principio, pero teniendo en cuenta los matices de la representación, es un trabajo duro, y el deslizamiento hacia arriba nos puede costar muy caro, basta pensar en los ataques de inyección SQL o cross-site scripting. La seguridad no es la única razón para repensar cómo nos ocupamos del I/O de texto plano en nuestras aplicaciones. Mediante la manipulación de estructuras de datos en lugar de cadenas, podríamos estar programando y razonando a un nivel superior. En esta charla vamos a tomar cross-site scripting (XSS) como un ejemplo de un problema de seguridad que se produce en el nivel del lenguaje. Mediante el uso de un nuevo enfoque para generar HTML, podemos evitar XSS en el plano arquitectónico.
 
 hannelita:
@@ -254,27 +254,27 @@ hannelita:
   full_name: Hanneli Tavante
   company: TFG
   github: hannelita
-  bio: | 
-    Hanneli (más conocida como @hannelita) es una programadora de Brasil adicta a escribir código, aprender nuevos lenguajes, frameworks, condensadores de flujo, programar un poco de C para relajarse y publicar código útil (o no) para distintos proyectos open-source que encuentra en Github. 
-    Intenta ayudar a los proyectos de la comunidad desde su <a href="http://hannelita.wordpress.com">weblog</a>. 
+  bio: |
+    Hanneli (más conocida como @hannelita) es una programadora de Brasil adicta a escribir código, aprender nuevos lenguajes, frameworks, condensadores de flujo, programar un poco de C para relajarse y publicar código útil (o no) para distintos proyectos open-source que encuentra en Github.
+    Intenta ayudar a los proyectos de la comunidad desde su <a href="http://hannelita.wordpress.com">weblog</a>.
     Es además amante del café, especialmente los de Starbucks.
   title: Consejos para el código Ruby en el servidor en las aplicaciones móviles
-  abstract: | 
-    ¿Tu aplicación móvil tiene cada día más y más usuarios? ¿Sientes que necesitas recursos de un servidor pero no conoces una buena manera de crear un backend? 
-    Esta charla puede ayudarte mostrándote cómo utilizar Ruby con algunos frameworks para resolver el problema de los backends para aplicaciones móviles! 
-    Las aplicaciones móviles han sido cada vez más populares. Pero detrás de grandes aplicaciones móviles ... hay una linda aplicación de backend. 
-    Ruby es una buena manera de desarrollar aplicaciones back-end para entornos móviles. 
-    En esta charla se mostrarán las mejores prácticas para la creación back-ends para 
+  abstract: |
+    ¿Tu aplicación móvil tiene cada día más y más usuarios? ¿Sientes que necesitas recursos de un servidor pero no conoces una buena manera de crear un backend?
+    Esta charla puede ayudarte mostrándote cómo utilizar Ruby con algunos frameworks para resolver el problema de los backends para aplicaciones móviles!
+    Las aplicaciones móviles han sido cada vez más populares. Pero detrás de grandes aplicaciones móviles ... hay una linda aplicación de backend.
+    Ruby es una buena manera de desarrollar aplicaciones back-end para entornos móviles.
+    En esta charla se mostrarán las mejores prácticas para la creación back-ends para
     aplicaciones móviles de una manera rápida y fácil.
 
 thiagopradi:
   twitter: thiagopradi
   full_name: Thiago Pradi
   github: tchandy
-  bio: | 
+  bio: |
     Thiago Pradi es un desarrollador de software apasionado, que se enamoró de Ruby y Rails en 2007. Desde entonces, ha estado trabajando en diferentes proyectos relacionados con Ruby, desde comercio electrónico hasta sistemas de seguimiento de candidatos. Actualmente, está trabajando para JobScore, y contribuye a diferentes proyectos open-source en su tiempo libre.
   title: Go for Rubyists
-  abstract: | 
+  abstract: |
     Go es un lenguaje increíble, con un montón de características interesantes y una buena sintaxis. Go comparte algunos conceptos con Ruby, pero es diferente en muchos aspectos. En esta charla se dará a conocer el lenguaje Go, las mejores características y aspectos del lenguaje, orientado a personas que ya conocen Ruby y quieren aprender un nuevo lenguaje.
 
 abecciu:
@@ -282,26 +282,26 @@ abecciu:
   full_name: Augusto Becciu
   company: Restorando
   github: abecciu
-  bio: | 
-    Augusto ha escrito sus primeras aplicaciones web en C hasta que conoció Perl y descubrió que los 
+  bio: |
+    Augusto ha escrito sus primeras aplicaciones web en C hasta que conoció Perl y descubrió que los
     lenguajes dinámicos no eran tan malos.
     Desde entonces ha estado trabajando en startups haciendo todo tipo de desarrollos en
-    Python, Java, Ruby y Erlang. Es un defensor del open-source de larga data, y ha contribuído a 
+    Python, Java, Ruby y Erlang. Es un defensor del open-source de larga data, y ha contribuído a
     muchos proyectos incluyendo Unicorn y Chef. Además, le interesan los sistemas distribuidos, y está
     encargado del mantenimiento de una librería popular de leader election escrita en Erlang.
   title: Construyendo una plataforma de datos con Ruby glue
-  abstract: | 
-    En Restorando hemos estado trabajando en los últimos 6 meses en la construcción de un sistema de recolección, procesado, y almacenado de datos. El desafío era recolectar datos de todas las fuentes posibles como interacciones de usuarios en nuestra web, mobile app/web, social networks, herramientas internas, emails, ad networks, etc. Luego de recolectarlos, procesarlos y transformarlos en un formato estandarizado, y finalmente almacenarlos y distribuirlos de manera tal que se permita fácilmente construir aplicaciones internas que consuman los mismos. La mayoría de las soluciones documentadas en Internet para problemas similares, están orientadas al manejo de grandes volúmenes de datos en el orden de cientos de Terabytes. Éstas utilizan sistemas como Hadoop, Storm, Flume, Mesos, etc. los cuales son complejos y generan un alto costo operacional. Nuestra solución esta compuesta por distintos componentes open source y servicios como FluentD, RabbitMQ, MySQL, MongoDB y Amazon S3, EC2, EMR, RedShift. Esta diseñada de manera tal que se mantenga el TCO al mínimo, y que al mismo tiempo sea robusta y tolerante a fallas en los distintos componentes. Se utilizó Ruby para el desarrollo de frameworks de ETL para datos en batch y en tiempo real, y en general para la consolidación de los componentes en una plataforma unificada.    
+  abstract: |
+    En Restorando hemos estado trabajando en los últimos 6 meses en la construcción de un sistema de recolección, procesado, y almacenado de datos. El desafío era recolectar datos de todas las fuentes posibles como interacciones de usuarios en nuestra web, mobile app/web, social networks, herramientas internas, emails, ad networks, etc. Luego de recolectarlos, procesarlos y transformarlos en un formato estandarizado, y finalmente almacenarlos y distribuirlos de manera tal que se permita fácilmente construir aplicaciones internas que consuman los mismos. La mayoría de las soluciones documentadas en Internet para problemas similares, están orientadas al manejo de grandes volúmenes de datos en el orden de cientos de Terabytes. Éstas utilizan sistemas como Hadoop, Storm, Flume, Mesos, etc. los cuales son complejos y generan un alto costo operacional. Nuestra solución esta compuesta por distintos componentes open source y servicios como FluentD, RabbitMQ, MySQL, MongoDB y Amazon S3, EC2, EMR, RedShift. Esta diseñada de manera tal que se mantenga el TCO al mínimo, y que al mismo tiempo sea robusta y tolerante a fallas en los distintos componentes. Se utilizó Ruby para el desarrollo de frameworks de ETL para datos en batch y en tiempo real, y en general para la consolidación de los componentes en una plataforma unificada.
 
 androbtech:
   twitter: androbtech
   full_name: Andres Robalino
   company: Andrab
   github: androbtech
-  bio: | 
+  bio: |
     Andrés trabaja en Andrab apoyando individuos con el deseo de aprender y adquirir responsabilidad en el desarrollo de software. Investiga en diversas áreas de ciencias computacionales. Fue docente en la Universidad Santa María sede Guayaquil. Se educó en Saint Joseph's University siguiendo Mathematics & Computer Science y formó parte del grupo investigativo del proyecto CAVASS del Medical Image Processing Group (MIPG) en la Universidad de Pennsylvania, un proyecto de software libre que incorpora procesamiento paralelo dirigido a la visualización, procesamiento, y análisis de imágenes médicas nD. También es organizador del Space Apps Ecuador (http://spaceappsecuador.com) y drabconf. Co-fundó la comunidad de Ruby del Ecuador. Le interesa que todos sean expuestos a buen material de la industria y el aprendizaje colectivo.
   title: Ruby Kryptography
-  abstract: | 
+  abstract: |
     Analizaremos problemas que enfrentamos cuando queremos incorporar seguridad en nuestras aplicaciones. La importancia de la criptografía, particularmente en estas fechas lo que hemos podido aprender de travesuras realizadas por cierta agencia. ¿Qué opciones tenemos en Ruby? La extensión OpenSSL tiene muchos obstáculos. Se desea una solución que nos permita tener control total de operaciones primitivas de cifrado para los expertos así como la alternativa de usar correctamente si uno no es experto. ¿No sería agradable una gema que ofrezca estas soluciones? Krypt es una gema "platform- and library-independent cryptography for Ruby" que solucionará nuestros problemas. Hasta la fecha se ha incorporado en JRuby core. Analizaremos como funciona y que ofrece para nuestras necesidades de seguridad.
 
 elbrujohalcon:
@@ -309,11 +309,11 @@ elbrujohalcon:
   full_name: Fernando Benavides
   company: Inaka
   github: elbrujohalcon
-  bio: | 
+  bio: |
     Fernando comenzó a usar computadoras a los 9 años, y a programar a los 10. Trabaja en la industria
     del software desde el año 2000. Es un desarrollador Erlang cerficado por Erlang Solutions y posee
     un título en Ciencias de la Computación de la Universidad de Buenos Aires.
-    Puedes ver su <a href="http://haskell.hpage.com">proyecto de tesis final</a> 
+    Puedes ver su <a href="http://haskell.hpage.com">proyecto de tesis final</a>
     (una plataforma de desarrollo construída en Haskell, llamada λPage). En los últimos 3 años en Inaka,
     Fernando ha desarrollado importantes back-ends para aplicaciones como Whisper, TigerText y Tune-In.
     Fernando ha realizado <a href="http://osrc.dfm.io/elbrujohalcon">muchas contribuciones</a> a la comunidad open-source.
@@ -335,10 +335,10 @@ pellegrino:
   bio: |
     Vitor se mudó de Brasil el año pasado para unirse a SoundCloud. Tiene mucha experiencia trabajando
     con Ruby y Rails para distintas empresas en Brasil y USA. Dice que habla mal el español, pero eso no es cierto.
-    
+
     Sergio es un gran entusiasta del open-source y es organizador de grandes eventos en Europa.
     No sólo los organiza, sino que también suele ser orador en dichos eventos. Luego de trabajar durante
-    años en España, se ha mudado a Berlin para unirse a SoundCloud. 
+    años en España, se ha mudado a Berlin para unirse a SoundCloud.
   title: "Separando un Monoriel: Micro-servicios y más allá"
   abstract: |
     Por 6 años, SoundCloud ha estado funcionando en Rails, mientras crecía de cero a millones de usuarios.
@@ -351,18 +351,18 @@ punchgirls:
   twitter: punchgirls
   full_name: Cecilia Rivero y Mayn Ektvedt Kjær
   github: punchgirls
-  company: PunchGirls
+  company: Punchgirls
   bio: |
-    Mayn Ektvedt Kjær estudia tecnología informática y vive en Buenos Aires. En este momento dedica su 
-    tiempo a escribir su tesis de maestría y al proyecto de 
+    Mayn Ektvedt Kjær estudia tecnología informática y vive en Buenos Aires. En este momento dedica su
+    tiempo a escribir su tesis de maestría y al proyecto de
     <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a>.
-    Cecilia Rivero trabajó como editora de sonido para películas y televisión. Desde el año pasado 
-    hizo un cambio de profesión para convertirse en una programadora full-time, algo que para ella 
-    había sido un hobby durante muchos años. Mayn y Cecilia forman Punchgirls, uno de los equipos 
-    participantes del programa Rails Girls Summer of Code 2013. 
-    Están desarrollando desde cero una <a href="https://github.com/punchgirls/job_board">aplicación</a> 
-    open-source para búsquedas laborales usando Ruby, Cuba y Redis. 
-    Guiadas por <a href="http://twitter.com/soveran">Michel Martens</a>, 
-    <a href="http://twitter.com/djanowski">Damián Janowski</a> y 
-    <a href="http://twitter.com/inkel">Leandro López</a>, 
+    Cecilia Rivero trabajó como editora de sonido para películas y televisión. Desde el año pasado
+    hizo un cambio de profesión para convertirse en una programadora full-time, algo que para ella
+    había sido un hobby durante muchos años. Mayn y Cecilia forman Punchgirls, uno de los equipos
+    participantes del programa Rails Girls Summer of Code 2013.
+    Están desarrollando desde cero una <a href="https://github.com/punchgirls/job_board">aplicación</a>
+    open-source para búsquedas laborales usando Ruby, Cuba y Redis.
+    Guiadas por <a href="http://twitter.com/soveran">Michel Martens</a>,
+    <a href="http://twitter.com/djanowski">Damián Janowski</a> y
+    <a href="http://twitter.com/inkel">Leandro López</a>,
     persiguen la simplicidad.
