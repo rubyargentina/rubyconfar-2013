@@ -1,7 +1,119 @@
-speakercode:
-  twitter: a
-  github: a
-  full_name: a 
-  company: a
+egutter:
+  twitter: egutter
+  github: egutter
+  full_name: Emilio Gutter 
+  company: 10Pines
+  title: The Agile City Building Game
+  abstract: |
+    Are you ready to start building your own city? Join a construction team, take your tools and 
+    get ready to build a fantastic city while you learn fundamental principles of Lean software 
+    development. You an your team will have to maximize value delivered to the people in your 
+    city while you compete with other teams to show which is the best agile building team! The 
+    objective of this game is to let you experience the fundamental principles behind Lean/Agile 
+    software development while you have fun and learn with your partners. During the game, each 
+    team will have to mockup buildings and objects in the city, using simple materials provided 
+    by the organizers. Teams will get a story backlog, each one with an assigned business value. 
+    Each team will carry out the stories within short iterations in order to maximize the value 
+    delivered by the end of the game. 
   bio: |
-    aaaaa.
+    Emilio is one of 10Pines co-founders. He has been working in software development area for more 
+    than 10 years, participating in several projects for Argentina; Brazil; United Kingdom; United 
+    States; France; Romania and Bulgaria. He has performed as software developer; project leader 
+    and agile coach with experience in different industries such as credit services; media & 
+    entertainment; advertising; travel & leisure among others. Also, he is strongly committed 
+    with the local Agile community and he is a member of the organization team of the Latin 
+    American "Agiles" conference since 2008, being in Agiles 2012 the conference co-chair.
+
+martinsalias:
+  twitter: martinsalias
+  github: martinsalias
+  full_name: Martín Salias 
+  company: Kleer
+  title: Yoseki Coding Dojo
+  abstract: |
+    The Dojo is, in japanese tradition, the place intended for teaching and perfecting martial 
+    arts and meditation. Yoseki is where the assistants of the teacher and advanced students 
+    stay. It's where every apprentice wants to be. The Coding Dojo initiative is spreading 
+    rapidly in many cities around the world. Its philosophy is about learning, learning and 
+    learning. In our Coding Dojo we meet to solve Coding Katas (programming exercises) working 
+    in pairs (and rotating in different ways) and using TDD.
+  bio: |
+    Martín has dedicated 30 years to software construction and has worked in projects through all 
+    America, Australia and Europe, for organizations as varied as the United Nations or Microsoft 
+    Corp. He has developed in different platforms and languajes such as C++, Fox, Java, COBOL, 
+    .NET, Python, Ruby and others. He is one of the Trainers and Coaches from Kleer, a latinoamerican 
+    organization devoted to spreading the organizational best practices related to software 
+    building and other products based on team innovation.
+
+dariocravero:
+  twitter: dariocravero
+  github: dariocravero
+  full_name: Darío Javier Cravero 
+  company: UXtemple
+  title: Understanding deployments
+  abstract: |
+    This workshop is a hands on, scratch the surface and dive deep into how to deploy your 
+    applications into production. Knowing how things work is the first step towards understanding 
+    what went wrong when your platform blew up at four in the morning that crazy Saturday. The 
+    deployment environment is your platform's home and as its landlord you should know how to build 
+    it from the ground up and keep it nice and tidy so that the tenants live happily ever after :). 
+  bio: |
+    CTO @ UXtemple. Padrino core mantainer. Yoga lover and mate drinker.
+
+damianmarti:
+  twitter: damianmarti
+  github: damianmarti
+  full_name: Damián Martinelli
+  company: Sumavisos
+  title: Introducción a NoSQL
+  abstract: |
+    This workshop is an introduction to the different types of non-relational databases, like 
+    key-value, columns, documents, graphs. Explaining the main aspects of each one, when they 
+    are useful (and when they aren't), and examples of different engines of each type.
+    NoSQL is a rising topic and so is their usage. But, many programmers still don't know them 
+    or just heard something about it, without knowing what they are or when they are useful.
+  bio: |
+  	Damián is a Software Engineer graduated from UBA. He programmed since the GWBasic era and 
+  	he entered the web programming world 15 years ago. He coded in Pascal, Delphi, C, Java, 
+  	PHP, but when he entered the Ruby world through Rails by 2006, never wanted to switch 
+  	to another language again. He is one of the founders of Sumavisos, a classified ads search 
+  	engine available in 30 countries, and the CTO.
+
+tutec:
+  twitter: tutec
+  github: tute
+  full_name: Tute Costa
+  company: General Assembly
+  title: 'Simplificando código: de monstruo a elegante en tres simples pasos!'
+  abstract: |
+    We all have skeletons in our closet, or have seen others' skeletons. In this workshop I'm going 
+    to show live, how to modify highly coupled code and hard to understand, to transform it into 
+    beautiful code, using patters, so it becomes the beautiful unicorn according to Sani Metz's 
+    four rules, without headaches, without "big bang refactorings"... and having fun!
+  bio: |
+    Tute maintains the projects: <a href="https://github.com/tute/merit" target="_blank">merit</a> and
+    <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. He created an 
+    app to know where he is and what's around: <a href="http://dynamicatlas.herokuapp.com/" target="_blank">
+    dynamicatlas</a>. He works at <a href="https://generalassemb.ly/">General Assembly</a>.
+
+luke_ar:
+  twitter: luke_ar
+  github: delucas
+  full_name: Lucas Videla
+  company: Uno21
+  title: 'TDD IRL // git y GitHub: primeros pasos'
+  abstract: |
+    TDD IRL: Workshop to experience with the attendees the usage and essence of TDD in Ruby. We're going 
+    to follow an example together, and then you'll make it grow seeing the power of having the safety net 
+    that having tests provide us. It's targeted to people that masters the language, but that doesn't know 
+    the testing tools. 
+    //
+    git y GitHub: Presentation of the emblematic tool for any working developer nowadays. The workshop setup 
+    allows the attendees to get a git installation up and running, with a 2 hour immersion and some 
+    achievements that starts them and inspires them to keep on the path of using git.
+  bio: |
+    A tireless apprentice of the art of programming. He tries to take his knowledge from and to different 
+    environments, taking advantage of them beyong technology. He is a professor in two Universities, in 
+    charge of teaching programming basics to young people from 17 to 6x years (because he still hasn't had 
+    an older student). Some of his projects: <a href="braid.herokuapp.com" target="_blank">Braid</a> and 
+    <a href="github.com/delucas/notas" target="_blank">Notas del Taller de Java</a>.
