@@ -77,10 +77,10 @@ damianmarti:
     muchos programadores que todavia no las conocen o solo la conocen de oido, sin conocer qué es 
     cada una y cuando es útil utilizarlas.
   bio: |
-    Soy Ingeniero en Informática recibido en la UBA. Programo desde el GWBasic y estoy en el 
-    mundo de la programación web desde hace alrededor de 15 años. Programé en Pascal, Delphi, 
-    C, Java, PHP, pero cuando me metí en el mundo Ruby de la mano de Rails allá por el 2006, 
-    nunca más quise tocar otro lenguaje. Soy uno de los fundadores de Sumavisos, un buscador 
+    Damián es Ingeniero en Informática recibido en la UBA. Programa desde el GWBasic y está en el 
+    mundo de la programación web desde hace alrededor de 15 años. Programó en Pascal, Delphi, 
+    C, Java, PHP, pero cuando se metió en el mundo Ruby de la mano de Rails allá por el 2006, 
+    nunca más quiso tocar otro lenguaje. Es uno de los fundadores de Sumavisos, un buscador 
     de avisos clasificados presente en 30 países, y el CTO. 
 
 tutec:
@@ -96,10 +96,10 @@ tutec:
     unicornio que cumple con las cuatro reglas de Sandi Metz, sin grandes dolores de cabeza, sin 
     refactoreos "big bang", y divirtiéndonos.
   bio: |
-    Mantengo los proyectos <a href="https://github.com/tute/merit" target="_blank">merit</a> y
-    <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. Creé una app 
-    para saber dónde estoy y qué me rodea: <a href="http://dynamicatlas.herokuapp.com/" target="_blank">
-    dynamicatlas</a>. Trabajo en <a href="https://generalassemb.ly/">General Assembly</a>.
+    Tute mantiene los proyectos <a href="https://github.com/tute/merit" target="_blank">merit</a> y
+    <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. También hizo una app 
+    para saber dónde está y qué lo rodea: <a href="http://dynamicatlas.herokuapp.com/" target="_blank">
+    dynamicatlas</a>. Trabaja en <a href="https://generalassemb.ly/">General Assembly</a>.
 
 luke_ar:
   twitter: luke_ar
