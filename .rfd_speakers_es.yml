@@ -53,7 +53,7 @@ dariocravero:
   company: UXtemple
   title: Understanding deployments
   abstract: |
-    Este taller consiste en raspar la superficie y sumergirse en profundidad en cóno hacer deploy 
+    Este taller consiste en raspar la superficie y sumergirse en profundidad en cómo hacer deploy 
     a producción de tus aplicaciones. Saber cómo funcionan las cosas es el primer paso en pos de 
     entender qué salió mal cuando tu plataforma explotó a las cuatro de la mañana de ese loco 
     sábado. El entorno de deploy es la casa de tu plataforma y el dueño debería saber cómo 
