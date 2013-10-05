@@ -8,6 +8,7 @@ class Generator
     @lang = lang
     @text = YAML.load_file(".text_#{lang}.yml")
     @speakers = YAML.load_file(".speakers_#{lang}.yml")
+    @rfd_speakers = YAML.load_file(".rfd_speakers_#{lang}.yml")
   end
 
   def t(key)
@@ -17,6 +18,7 @@ class Generator
   def html_result
     write_html @lang + '/index.html', ERB.new( File.open(".template.html.erb").read ).result(binding)
     write_html @lang + '/program.html', ERB.new( File.open(".program.html.erb").read ).result(binding)
+    write_html @lang + '/rfd.html', ERB.new( File.open(".rfd.html.erb").read ).result(binding)
   end
 
 private
