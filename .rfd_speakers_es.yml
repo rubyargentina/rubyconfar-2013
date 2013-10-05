@@ -23,7 +23,7 @@ egutter:
     publicidad, turismo entre otras. También, está fuertemente comprometido con la comunidad Agile 
     local y esun miembro del equipo organizador de las conferencias latinoamericanas "Agiles" desde 
     2008, siendo en Agiles 2012 uno de los organizadores principales.
-    
+
 martinsalias:
   twitter: martinsalias
   github: martinsalias
@@ -53,13 +53,14 @@ dariocravero:
   company: UXtemple
   title: Understanding deployments
   abstract: |
-    This workshop is a hands on, scratch the surface and dive deep into how to deploy your 
-    applications into production. Knowing how things work is the first step towards understanding 
-    what went wrong when your platform blew up at four in the morning that crazy Saturday. The 
-    deployment environment is your platform's home and as its landlord you should know how to build 
-    it from the ground up and keep it nice and tidy so that the tenants live happily ever after :). 
+    Este taller consiste en raspar la superficie y sumergirse en profundidad en cóno hacer deploy 
+    a producción de tus aplicaciones. Saber cómo funcionan las cosas es el primer paso en pos de 
+    entender qué salió mal cuando tu plataforma explotó a las cuatro de la mañana de ese loco 
+    sábado. El entorno de deploy es la casa de tu plataforma y el dueño debería saber cómo 
+    construirla desde los cimientos y mantenerla limpia y ordenada para que los inquilinos 
+    vivan felices por siempre :).
   bio: |
-    CTO @ UXtemple. Padrino core mantainer. Yoga lover and mate drinker.
+    CTO en UXtemple. Padrino core mantainer. Yoga lover and mate drinker.
 
 damianmarti:
   twitter: damianmarti
