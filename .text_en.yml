@@ -2,6 +2,7 @@ site_lang: en
 nav_home: Home
 nav_speakers: Speakers
 nav_program: Program
+nav_rfd: Ruby Fun Day
 nav_venue: Venue
 nav_sponsors: Sponsors
 nav_lang_selector_url: /es
@@ -28,3 +29,4 @@ footer_end: a non-profit organization dedicated to promoting the growth of Ruby 
 past_editions: Past events
 program_title: Conference Program
 tba: More information about this presentation coming soon...
+rfd_title: Ruby Fun Day (Workshops)

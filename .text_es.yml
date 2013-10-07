@@ -2,6 +2,7 @@ site_lang: es
 nav_home: Inicio
 nav_speakers: Oradores
 nav_program: Programa
+nav_rfd: Ruby Fun Day
 nav_venue: Lugar
 nav_sponsors: Sponsors
 nav_lang_selector_url: /en
@@ -29,3 +30,4 @@ footer_end: una asociación sin fines de lucro dedicada a promover el crecimient
 past_editions: Eventos anteriores
 program_title: Programa de las Charlas
 tba: Pronto publicaremos información sobre su charla...
+rfd_title: Ruby Fun Day (Talleres)
