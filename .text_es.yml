@@ -9,7 +9,7 @@ nav_lang_selector_url: /en
 nav_lang_selector_message: Do you speak English?
 date: 27 y 28 de Noviembre, 2013
 header: |
-  Estamos orgullosos de anunciar la tercera edición de RubyConf Argentina,<br>
+  Con orgullo anunciamos la tercera edición de RubyConf Argentina,<br>
   una conferencia regional sobre Ruby y tecnologías relacionadas.
 register: ¡Registrate ahora!
 price_legend: (aprox. USD 88), hasta el 11 de octubre
@@ -30,4 +30,9 @@ footer_end: una asociación sin fines de lucro dedicada a promover el crecimient
 past_editions: Eventos anteriores
 program_title: Programa de las Charlas
 tba: Pronto publicaremos información sobre su charla...
-rfd_title: Ruby Fun Day (Talleres)
+rfd_title: Programa de Talleres
+rfd_description: |
+  <p>Un día completo para aprender, conocer y divertirse con Ruby y su increíble comunidad! Y una oportunidad fantástica para conocer a otros colegas y compartir experiencias.</p>
+  <p>Las actividades están pensadas para que cada uno traiga su laptop, o se junte con aquellos que la traigan, para poder hacer los juegos y talleres. Habrá enchufes y wi-fi para todos.</p>
+  <p>La agenda ha sido separada en tracks simultáneos en función del nivel de experiencia de la audiencia.</p>
+  <p>Las sesiones serán en el idioma elegido por sus respectivos oradores. Lo sentimos, pero no habrá servicio de traducción durante el Ruby Fun Day.</p>

@@ -16,7 +16,7 @@ class Generator
   end
 
   def html_result
-    write_html @lang + '/index.html', ERB.new( File.open(".template.html.erb").read ).result(binding)
+    write_html @lang + '/index.html', ERB.new( File.open(".index.html.erb").read ).result(binding)
     write_html @lang + '/program.html', ERB.new( File.open(".program.html.erb").read ).result(binding)
     write_html @lang + '/rfd.html', ERB.new( File.open(".rfd.html.erb").read ).result(binding)
   end

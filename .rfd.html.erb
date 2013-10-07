@@ -30,6 +30,23 @@
 
     <section id="program">
       <div class="container">
+        <h2>Ruby Fun Day!</h2>
+        <div class="rfd-box">
+          <div class="rfd-calendar">
+            <img src="../img/rfd-calendar.gif" height="90" width="90" alt="Nov 26">
+          </div>
+          <div class="rfd-venue">
+            <h4>Universidad de Palermo</h4>
+            <address>
+              Mario Bravo 1050<br>
+              Buenos Aires
+            </address>
+          </div>
+        </div>
+        <div class="rfd-description"><%= t('rfd_description') %></div>
+      </div>
+
+      <div class="container">
         <h2><%= t('rfd_title')%></h2>
         <% @rfd_speakers.each do |speaker| %>
           <% if speaker[1]['bio'] %>
@@ -45,7 +62,7 @@
                 </h3>
                 <p class="bio"><%= speaker[1]['bio'] || '...' %></p>
                 <h4><%= speaker[1]['title'] || t('tba') %></h4>
-                <p><%= speaker[1]['abstract']%></p>
+                <p class="session-details"><%= speaker[1]['abstract']%></p>
               </div>
             </div>
           <% end %>
