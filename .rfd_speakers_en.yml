@@ -101,19 +101,23 @@ luke_ar:
   github: delucas
   full_name: Lucas Videla
   company: Uno21
-  title: 'TDD IRL // git y GitHub: primeros pasos'
+  title: "TDD IRL // Don't you use git and GitHub yet?"
   abstract: |
-    TDD IRL: Workshop to experience with the attendees the usage and essence of TDD in Ruby. We're going 
-    to follow an example together, and then you'll make it grow seeing the power of having the safety net 
-    that having tests provide us. It's targeted to people that masters the language, but that doesn't know 
-    the testing tools. 
+    "Test Driven Development In Real Life" is a workshop for attendees to experience the use and essence of 
+    TDD in Ruby. We'll develop an example together, and see the power of growing software with the security 
+    that tests provide us. It is designed for people who have learnt the language, but do not necessarily 
+    know the testing tools.
+    If you don't know the technique of TDD, or if you saw it only at University or some fancy videos, we 
+    suggest you to come and do it in a real project.
     //
-    git y GitHub: Presentation of the emblematic tool for any working developer nowadays. The workshop setup 
-    allows the attendees to get a git installation up and running, with a 2 hour immersion and some 
-    achievements that starts them and inspires them to keep on the path of using git.
+    Don't you use git and GitHub yet?
+    A workshop in which participants will experience the basics and first steps with the main version 
+    control system today. Like any workshop, the slogan will be "hands-on", and we will continue some 
+    instructions that will drive us to live the use of git. Bring your computer, get on with git.
   bio: |
-    A tireless apprentice of the art of programming. He tries to take his knowledge from and to different 
-    environments, taking advantage of them beyong technology. He is a professor in two Universities, in 
-    charge of teaching programming basics to young people from 17 to 6x years (because he still hasn't had 
-    an older student). Some of his projects: <a href="braid.herokuapp.com" target="_blank">Braid</a> and 
-    <a href="github.com/delucas/notas" target="_blank">Notas del Taller de Java</a>.
+    Lucas is a tireless apprentice of the art of programming. He lectures at two universities, and teaches 
+    the basics of programming for young people from age 17 to 6x (because nobody older attended yet). 
+    He currently works at <a href="http://www.uno21.com.ar" target="_blank">uno21</a> and is one of the 
+    <a href = "http://www.wecode.io "target ="_blank">wecode</a> movement co-founders. Some of his projects 
+    are <a href="braid.herokuapp.com" target="_blank">braid</a> and 
+    <a href="github.com/delucas/notas" target="_blank">notas</a>.
