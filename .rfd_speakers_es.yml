@@ -1,66 +1,66 @@
 egutter:
   twitter: egutter
   github: egutter
-  full_name: Emilio Gutter 
+  full_name: Emilio Gutter
   company: 10Pines
   title: The Agile City Building Game
   abstract: |
     ¿Estás listo para construir tu propia ciudad? Unite a un equipo de construcción, tomá tus
     herramientas y preparate para construir tu fantástica ciudad mientras aprendés los principios
-    fundameles del desarrollo Lean de software. ¡Vos y tu equipo van a maximizar el valor entregado 
-    a la gente de la ciudad mientras compiten con los otros equipos para mostrar quien es el mejor 
-    equipo de construcción ágil! El objetivo del juego es permitirte experimentar los principios 
-    fundamentales del desarrollo Ágil/Lean de software mientras te divertís y aprendés con tus 
-    compañeros. Durante el juego, cada equipo tendrá que bocetar edificios y objetos en la ciudad, 
-    usando materiales simples provistos por los organizadores. Los equipos van a recibir un story 
-    backlog, cada uno con un valor de negocio asignado. Cada equipo va a llevar adelante las 
+    fundamentales del desarrollo Lean de software. ¡Vos y tu equipo van a maximizar el valor entregado
+    a la gente de la ciudad mientras compiten con los otros equipos para mostrar quien es el mejor
+    equipo de construcción ágil! El objetivo del juego es permitirte experimentar los principios
+    fundamentales del desarrollo Ágil/Lean de software mientras te divertís y aprendés con tus
+    compañeros. Durante el juego, cada equipo tendrá que bocetar edificios y objetos en la ciudad,
+    usando materiales simples provistos por los organizadores. Los equipos van a recibir un story
+    backlog, cada uno con un valor de negocio asignado. Cada equipo va a llevar adelante las
     historias dentro de cortas iteraciones para maximizar el valor entregado al final del juego.
   bio: |
-    Emilio es uno de los fundadores de 10Pines. Trabajó en el área de desarrollo de software por 
-    más de 10 años, participando en variados proyectos para Argentina, Brasil, Reino Unido, Estados 
-    Unidos, Francia, Rumania y Bulgaria. Ocupó puestos de desarrollador, líder de proyecto y coach 
-    agile con experiencia en diferentes industrias como servicios de crédito, medios y entretenimiento, 
-    publicidad, turismo entre otras. También, está fuertemente comprometido con la comunidad Agile 
-    local y esun miembro del equipo organizador de las conferencias latinoamericanas "Agiles" desde 
+    Emilio es uno de los fundadores de 10Pines. Trabajó en el área de desarrollo de software por
+    más de 10 años, participando en variados proyectos para Argentina, Brasil, Reino Unido, Estados
+    Unidos, Francia, Rumania y Bulgaria. Ocupó puestos de desarrollador, líder de proyecto y coach
+    agile con experiencia en diferentes industrias como servicios de crédito, medios y entretenimiento,
+    publicidad, turismo entre otras. También está fuertemente comprometido con la comunidad Agile
+    local y es un miembro del equipo organizador de las conferencias latinoamericanas "Agiles" desde
     2008, siendo en Agiles 2012 uno de los organizadores principales.
 
 martinsalias:
   twitter: martinsalias
   github: martinsalias
-  full_name: Martín Salias 
+  full_name: Martín Salias
   company: Kleer
   title: Yoseki Coding Dojo
   abstract: |
-    El Dojo es, en la tradición japonesa, el lugar destinado a la enseñanza y el perfeccionamiento 
-    en las artes marciales y la meditación. Yoseki es donde se localizan los auxiliares del maestro 
-    y aquellos estudiantes avanzados. Es donde todo aprendiz quiere llegar. La iniciativa del 
-    Coding Dojo se está difundiendo rápidamente en muchas ciudades del mundo. Su filosofía se trata 
-    de aprender, aprender y aprender. En nuestro Coding Dojo nos reunimos para resolver Coding 
-    Katas (ejercicios de programación) trabajando de a pares (y rotando con diferentes patrones) 
+    El Dojo es, en la tradición japonesa, el lugar destinado a la enseñanza y el perfeccionamiento
+    en las artes marciales y la meditación. Yoseki es donde se localizan los auxiliares del maestro
+    y aquellos estudiantes avanzados. Es donde todo aprendiz quiere llegar. La iniciativa del
+    Coding Dojo se está difundiendo rápidamente en muchas ciudades del mundo. Su filosofía se trata
+    de aprender, aprender y aprender. En nuestro Coding Dojo nos reunimos para resolver Coding
+    Katas (ejercicios de programación) trabajando de a pares (y rotando con diferentes patrones)
     y basando la práctica en TDD.
   bio: |
-    Martín lleva 30 años dedicado a la construcción de software y ha trabajado en proyectos a lo 
-    largo de América, Australia y Europa, para organizaciones tan variadas como las Naciones Unidas 
-    o Microsoft Corp. Ha desarrollado en diversas plataformas y lenguajes como C++, Fox, Java, 
-    COBOL, .NET, Python, Ruby y otros. Es uno de los Trainers y Coaches en Kleer, una organización 
-    latinoamericana dedicada a difundir mejores prácticas organizacionales relacionadas a la 
+    Martín lleva 30 años dedicado a la construcción de software y ha trabajado en proyectos a lo
+    largo y ancho de América, Australia y Europa, para organizaciones tan variadas como las Naciones Unidas
+    o Microsoft Corp. Ha desarrollado en diversas plataformas y lenguajes como C++, Fox, Java,
+    COBOL, .NET, Python, Ruby y otros. Es uno de los Trainers y Coaches en Kleer, una organización
+    latinoamericana dedicada a difundir mejores prácticas organizacionales relacionadas a la
     construcción de software y otros productos basados en innovación en equipos.
 
 dariocravero:
   twitter: dariocravero
   github: dariocravero
-  full_name: Darío Javier Cravero 
+  full_name: Darío Javier Cravero
   company: UXtemple
   title: Understanding deployments
   abstract: |
-    Este taller consiste en raspar la superficie y sumergirse en profundidad en cómo hacer deploy 
-    a producción de tus aplicaciones. Saber cómo funcionan las cosas es el primer paso en pos de 
-    entender qué salió mal cuando tu plataforma explotó a las cuatro de la mañana de ese loco 
-    sábado. El entorno de deploy es la casa de tu plataforma y el dueño debería saber cómo 
-    construirla desde los cimientos y mantenerla limpia y ordenada para que los inquilinos 
+    Este taller consiste en raspar la superficie y sumergirse en profundidad en cómo hacer deploy
+    a producción de tus aplicaciones. Saber cómo funcionan las cosas es el primer paso en pos de
+    entender qué salió mal cuando tu plataforma explotó a las cuatro de la mañana de ese loco
+    sábado. El entorno de deploy es la casa de tu plataforma y el dueño debería saber cómo
+    construirla desde los cimientos y mantenerla limpia y ordenada para que los inquilinos
     vivan felices por siempre :).
   bio: |
-    CTO en UXtemple. Padrino core mantainer. Yoga lover and mate drinker.
+    CTO en UXtemple. Padrino core mantainer. Amante del yoga y bebedor de mate.
 
 damianmarti:
   twitter: damianmarti
@@ -69,19 +69,19 @@ damianmarti:
   company: Sumavisos
   title: Introducción a NoSQL
   abstract: |
-    El taller consiste en una introducción a los diferentes tipos de base de datos no relacionales, 
-    como ser clave/valor, por columnas, de documentos, de grafos. Contando las caracteristicas 
-    principales de cada una, cuándo es útil, cuándo no, y ejemplos de motores de base de datos 
+    El taller consiste en una introducción a los diferentes tipos de base de datos no relacionales,
+    como ser clave/valor, por columnas, de documentos y de grafos. Contando las caracteristicas
+    principales de cada una, cuándo es útil, cuándo no, y ejemplos de motores de base de datos
     disponibles para cada tipo.
-    Cada vez se habla más de NoSQL y cada vez se utilizan más base de datos de este tipo, pero hay 
-    muchos programadores que todavia no las conocen o solo la conocen de oido, sin conocer qué es 
+    Cada vez se habla más de NoSQL y cada vez se utilizan más base de datos de este tipo, pero hay
+    muchos programadores que todavia no las conocen o solo la conocen de oído, sin conocer qué es
     cada una y cuando es útil utilizarlas.
   bio: |
-    Damián es Ingeniero en Informática recibido en la UBA. Programa desde el GWBasic y está en el 
-    mundo de la programación web desde hace alrededor de 15 años. Programó en Pascal, Delphi, 
-    C, Java, PHP, pero cuando se metió en el mundo Ruby de la mano de Rails allá por el 2006, 
-    nunca más quiso tocar otro lenguaje. Es uno de los fundadores de Sumavisos, un buscador 
-    de avisos clasificados presente en 30 países, y el CTO. 
+    Damián es Ingeniero en Informática recibido en la UBA. Programa desde el GWBasic y está en el
+    mundo de la programación web desde hace alrededor de 15 años. Programó en Pascal, Delphi,
+    C, Java, PHP, pero cuando se metió en el mundo Ruby de la mano de Rails allá por el 2006,
+    nunca más quiso tocar otro lenguaje. Es uno de los fundadores y CTO de Sumavisos, un buscador
+    de avisos clasificados presente en 30 países.
 
 tutec:
   twitter: tutec
@@ -90,14 +90,14 @@ tutec:
   company: General Assembly
   title: 'Simplificando código: de monstruo a elegante en tres simples pasos!'
   abstract: |
-    Todos tenemos muertos en el placard, o vimos los muertos de otros. En este taller voy a mostrar 
-    en vivo cómo modificar código altamente acoplado y difícil de entender, mostrando cómo transformar 
-    código inmantenible hacia código bello, siguiendo y tendiendo a patrones, para resultar en un bello 
-    unicornio que cumple con las cuatro reglas de Sandi Metz, sin grandes dolores de cabeza, sin 
+    Todos tenemos muertos en el placard, o vimos los muertos de otros. En este taller voy a mostrar
+    en vivo cómo modificar código altamente acoplado y difícil de entender, mostrando cómo transformar
+    código inmantenible hacia código bello, siguiendo y tendiendo a patrones, para resultar en un bello
+    unicornio que cumple con las cuatro reglas de Sandi Metz, sin grandes dolores de cabeza, sin
     refactoreos "big bang", y divirtiéndonos.
   bio: |
     Tute mantiene los proyectos <a href="https://github.com/tute/merit" target="_blank">merit</a> y
-    <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. También hizo una app 
+    <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. También hizo una aplicación
     para saber dónde está y qué lo rodea: <a href="http://dynamicatlas.herokuapp.com/" target="_blank">
     dynamicatlas</a>. Trabaja en <a href="https://generalassemb.ly/">General Assembly</a>.
 
@@ -108,21 +108,21 @@ luke_ar:
   company: Uno21
   title: 'TDD IRL // ¿Aún no usás git y GitHub?'
   abstract: |
-    "Test Driven Development In Real Life" es un taller para experimentar junto a los asistentes el uso y 
-    esencia de TDD en Ruby. Vamos a hacer un ejemplo juntos, y luego lo harán crecer viendo la potencia de 
+    "Test Driven Development In Real Life" es un taller para experimentar junto a los asistentes el uso y
+    esencia de TDD en Ruby. Vamos a hacer un ejemplo juntos, y luego lo harán crecer viendo la potencia de
     tener la seguridad que los tests proporcionan. Está pensado para gente que domine el lenguaje, aunque no conozca las herramientas de testing.
-    Si no conocés la técnica de TDD, o si la viste sólo en la facu o algunos videos, te propongo que 
+    Si no conocés la técnica de TDD, o si la viste sólo en la facultad o algunos videos, te propongo que
     vengas a hacerlo en un proyecto de verdad.
     //
     ¿Aún no usás git y GitHub?
-    Un taller en el que los asistentes experimentarán las bases y primeros pasos con la principal 
-    herramienta de control de versiones de la actualidad. Como todo taller, la consigna será "manos a la 
-    obra", por lo que seguiremos algunas consignas que nos llevarán a vivir el uso de git. Traé tu 
+    Un taller en el que los asistentes experimentarán las bases y primeros pasos con la principal
+    herramienta de control de versiones de la actualidad. Como todo taller, la consigna será "manos a la
+    obra", por lo que seguiremos algunas consignas que nos llevarán a vivir el uso de git. Traé tu
     computadora, llevate git puesto.
   bio: |
-    Lucas es un aprendiz incansable del arte de la programación. Dicta clases en dos universidades, y es 
-    el encargado de enseñar las bases de la programación a jóvenes de 17 a 6x años (porque aún no llegó 
-    nadie más grande). Actualmente trabaja para <a href="http://www.uno21.com.ar" target="_blank">uno21</a> 
-    y es cofundador del movimiento <a href="http://www.wecode.io" target="_blank">wecode</a>. Algunos de 
-    sus proyectos son <a href="braid.herokuapp.com" target="_blank">braid</a> y 
+    Lucas es un aprendiz incansable del arte de la programación. Dicta clases en dos universidades, y es
+    el encargado de enseñar las bases de la programación a jóvenes de 17 a 6x años (porque aún no llegó
+    nadie más grande). Actualmente trabaja para <a href="http://www.uno21.com.ar" target="_blank">uno21</a>
+    y es cofundador del movimiento <a href="http://www.wecode.io" target="_blank">wecode</a>. Algunos de
+    sus proyectos son <a href="braid.herokuapp.com" target="_blank">braid</a> y
     <a href="github.com/delucas/notas" target="_blank">notas</a>.
