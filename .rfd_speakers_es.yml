@@ -106,21 +106,22 @@ luke_ar:
   github: delucas
   full_name: Lucas Videla
   company: Uno21
-  title: 'TDD IRL // ¿Aún no usás git y GitHub?'
+  title: ''
   abstract: |
-    "Test Driven Development In Real Life" es un taller para experimentar junto a los asistentes el uso y
+    <strong>"Test Driven Development In Real Life"</strong><br/>
+    Es un taller para experimentar junto a los asistentes el uso y
     esencia de TDD en Ruby. Vamos a hacer un ejemplo juntos, y luego lo harán crecer viendo la potencia de
     tener la seguridad que los tests proporcionan. Está pensado para gente que domine el lenguaje, aunque no conozca las herramientas de testing.
     Si no conocés la técnica de TDD, o si la viste sólo en la facultad o algunos videos, te propongo que
     vengas a hacerlo en un proyecto de verdad.
-    //
-    ¿Aún no usás git y GitHub?
+    <br/><br/>
+    <strong>¿Aún no usás git y GitHub?</strong><br/>
     Un taller en el que los asistentes experimentarán las bases y primeros pasos con la principal
     herramienta de control de versiones de la actualidad. Como todo taller, la consigna será "manos a la
     obra", por lo que seguiremos algunas consignas que nos llevarán a vivir el uso de git. Traé tu
     computadora, llevate git puesto.
   bio: |
-    Lucas es un aprendiz incansable del arte de la programación. Dicta clases en dos universidades, y es
+    Lucas es un aprendiz incansable del arte del desarrollo de software. Dicta clases en dos universidades, y es
     el encargado de enseñar las bases de la programación a jóvenes de 17 a 6x años (porque aún no llegó
     nadie más grande). Actualmente trabaja para <a href="http://www.uno21.com.ar" target="_blank">uno21</a>
     y es cofundador del movimiento <a href="http://www.wecode.io" target="_blank">wecode</a>. Algunos de
