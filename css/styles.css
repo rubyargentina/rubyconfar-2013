@@ -321,3 +321,35 @@ div.session {
 
 .session > .txt > h3 a {text-decoration: none;}
 .session > .txt > h3 i {color: #333;}
+
+.rfd-venue{
+}
+
+.bio, .session-details, .rfd-description{
+  text-align: justify;
+}
+
+.rfd-box{
+  width: 190px;
+  margin: 10px auto;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  /*box-shadow: 5px 5px 10px #ccc;*/
+  float: left;
+  clear: left;
+}
+
+.rfd-description{
+  width: 720px;
+  float: right;
+  clear: right;
+}
+
+.rfd-venue{
+  padding: 5px 0;
+}
+
+.rfd-venue > h4{
+  margin: 0;
+}

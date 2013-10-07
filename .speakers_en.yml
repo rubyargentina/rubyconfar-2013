@@ -66,6 +66,24 @@ janogonzalez:
     RubyConf Argentina 2012. He is a great friend of all of us, so we
     call him "Jano of the Americas"
 
+punchgirls:
+  twitter: punchgirls
+  full_name: Cecilia Rivero and Mayn E Kjær
+  github: punchgirls
+  company: Punchgirls
+  bio: |
+    Mayn Ektvedt Kjær is a computer engineering student living in Buenos Aires. At the moment dedicating
+    herself to write her master thesis and the
+    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code project</a>.
+    Cecilia Rivero is a former sound editor for films and television. Since last year she switched
+    profession to become a full-time developer, something that was a hobby of hers for years.
+    Mayn and Cecilia form Punchgirls, one of the participating teams in the Rails Girls Summer
+    of Code 2013 program. They are developing an
+    <a href="https://github.com/punchgirls/job_board">Open Source job board</a> from scratch using Ruby,
+    Cuba and Redis. Mentored by <a href="http://twitter.com/soveran">Michel Martens</a>,
+    <a href="http://twitter.com/djanowski">Damián Janowski</a> and
+    <a href="http://twitter.com/inkel">Leandro López</a>, they strive for simplicity.
+
 hyper_linda:
   twitter: hyper_linda
   full_name: Linda Sandvik
@@ -317,20 +335,3 @@ pellegrino:
     monolithic Rails app into many micro-services. In this talk, we share our findings about running and
     integrating several services, while scaling not only in traffic, but also in team size.
 
-punchgirls:
-  twitter: punchgirls
-  full_name: Cecilia Rivero and Mayn Ektvedt Kjær
-  github: punchgirls
-  company: Punchgirls
-  bio: |
-    Mayn Ektvedt Kjær is a computer engineering student living in Buenos Aires. At the moment dedicating
-    herself to write her master thesis and the
-    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code project</a>.
-    Cecilia Rivero is a former sound editor for films and television. Since last year she switched
-    profession to become a full-time developer, something that was a hobby of hers for years.
-    Mayn and Cecilia form Punchgirls, one of the participating teams in the Rails Girls Summer
-    of Code 2013 program. They are developing an
-    <a href="https://github.com/punchgirls/job_board">Open Source job board</a> from scratch using Ruby,
-    Cuba and Redis. Mentored by <a href="http://twitter.com/soveran">Michel Martens</a>,
-    <a href="http://twitter.com/djanowski">Damián Janowski</a> and
-    <a href="http://twitter.com/inkel">Leandro López</a>, they strive for simplicity.
