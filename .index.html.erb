@@ -45,7 +45,7 @@
       <div class="container">
         <h2><%= t('cfp_title')%></h2>
         <ul>
-          <% @speakers.each do |speaker| %>
+          <% @speakers.merge(@rfd_speakers).each do |speaker| %>
             <li>
               <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
               <h3><a href="https://twitter.com/<%= speaker[1]['twitter'] %>"><%= speaker[1]['twitter'] %></a></h3>
@@ -54,7 +54,6 @@
             </li>
           <% end %>
         </ul>
-        <p class="cfp"><%= t('cfp_text')%></p>
       </div>
     </section>
 

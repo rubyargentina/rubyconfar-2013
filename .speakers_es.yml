@@ -75,6 +75,26 @@ janogonzalez:
     Jano es programador y músico amateur. Vive en Santiago de Chile, y actualmente es el CTO de HopIn.
     Fue orador en RubyConf Uruguay 2011 y 2013, y también en RubyConf Argentina 2012. Es un gran amigo del Río de la Plata, así que lo llamamos "Jano de América".
 
+punchgirls:
+  twitter: punchgirls
+  full_name: Cecilia Rivero y Mayn E Kjær
+  github: punchgirls
+  company: Punchgirls
+  bio: |
+    Mayn Ektvedt Kjær estudia tecnología informática y vive en Buenos Aires. En este momento dedica su
+    tiempo a escribir su tesis de maestría y al proyecto de
+    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a>.
+    Cecilia Rivero trabajó como editora de sonido para películas y televisión. Desde el año pasado
+    hizo un cambio de profesión para convertirse en una programadora full-time, algo que para ella
+    había sido un hobby durante muchos años. Mayn y Cecilia forman Punchgirls, uno de los equipos
+    participantes del programa Rails Girls Summer of Code 2013.
+    Están desarrollando desde cero una <a href="https://github.com/punchgirls/job_board">aplicación</a>
+    open-source para búsquedas laborales usando Ruby, Cuba y Redis.
+    Guiadas por <a href="http://twitter.com/soveran">Michel Martens</a>,
+    <a href="http://twitter.com/djanowski">Damián Janowski</a> y
+    <a href="http://twitter.com/inkel">Leandro López</a>,
+    persiguen la simplicidad.
+
 hyper_linda:
   twitter: hyper_linda
   full_name: Linda Sandvik
@@ -346,23 +366,3 @@ pellegrino:
     nuestra aplicación Rails monolítica en muchos micro-servicios.
     En esta charla, compartiremos nuestros descubrimientos sobre cómo ejecutar e integrar muchos servicios,
     mientras escala, no sólo el tráfico, sino también el tamaño del equipo.
-
-punchgirls:
-  twitter: punchgirls
-  full_name: Cecilia Rivero y Mayn Ektvedt Kjær
-  github: punchgirls
-  company: Punchgirls
-  bio: |
-    Mayn Ektvedt Kjær estudia tecnología informática y vive en Buenos Aires. En este momento dedica su
-    tiempo a escribir su tesis de maestría y al proyecto de
-    <a href="http://railsgirlssummerofcode.org/">Rails Girls Summer of Code</a>.
-    Cecilia Rivero trabajó como editora de sonido para películas y televisión. Desde el año pasado
-    hizo un cambio de profesión para convertirse en una programadora full-time, algo que para ella
-    había sido un hobby durante muchos años. Mayn y Cecilia forman Punchgirls, uno de los equipos
-    participantes del programa Rails Girls Summer of Code 2013.
-    Están desarrollando desde cero una <a href="https://github.com/punchgirls/job_board">aplicación</a>
-    open-source para búsquedas laborales usando Ruby, Cuba y Redis.
-    Guiadas por <a href="http://twitter.com/soveran">Michel Martens</a>,
-    <a href="http://twitter.com/djanowski">Damián Janowski</a> y
-    <a href="http://twitter.com/inkel">Leandro López</a>,
-    persiguen la simplicidad.
