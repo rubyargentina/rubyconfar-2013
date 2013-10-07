@@ -366,3 +366,24 @@ pellegrino:
     nuestra aplicación Rails monolítica en muchos micro-servicios.
     En esta charla, compartiremos nuestros descubrimientos sobre cómo ejecutar e integrar muchos servicios,
     mientras escala, no sólo el tráfico, sino también el tamaño del equipo.
+
+cristianrasch:
+  twitter: cristianrasch
+  full_name: Cristian Rasch
+  github: cristianrasch
+  bio: |
+    Cristian es un ingeniero de software independiente, ubicado en Buenos Aires. 
+    Después de haber trabajado para algunas empresas de alta tecnología (2005-2012) que finalmente se 
+    hartó de cómo el software está escrito en nuestra industria y decidió hacer sus propias reglas e 
+    iniciar su propio negocio como un desarrollador independiente.
+  title: "Rack and roll"
+  abstract: |
+    Rack es la pieza fundamental de los frameworks más populares de Ruby como Cuba, Sinatra y Rails, 
+    pero no puedo dejar de preguntarme: ¿cuánto de esta tecnología subyacente conoce el desarrollador ruby
+    promedio? Cómo tener una mejor comprensión influiría en su trabajo del día a día? 
+    Bueno, en esta presentación tengo la intención de explicar no sólo cómo funciona rack, 
+    cuáles son los métodos de ayuda más populares disponibles para todos los desarrolladores Ruby 
+    en una forma u otra, sino también, qué es rack middleware, qué ejemplos sencillos pero brillantes 
+    se incluyen en rack y rack-contrib, y, finalmente, cómo escribir sus propias piezas de rack middleware.
+
+

@@ -335,3 +335,21 @@ pellegrino:
     monolithic Rails app into many micro-services. In this talk, we share our findings about running and
     integrating several services, while scaling not only in traffic, but also in team size.
 
+cristianrasch:
+  twitter: cristianrasch
+  full_name: Cristian Rasch
+  github: cristianrasch
+  bio: |
+    Cristian is a freelance software engineer based in Buenos Aires. Having worked for a few tech 
+    companies (2005-2012) he finally got fed up with how software is written in our industry and 
+    decided to make his own rules by bootstrapping his own business as a freelance software developer. 
+  title: "Rack and roll"
+  abstract: |
+    Rack is the basic foundation of popular all ruby web frameworks such as cuba, sinatra and rails, 
+    but I can't help but wonder: how much about this underlying technology does the average ruby web 
+    developer know? and how having a deeper understanding of what puts ruby on the web would influence 
+    their day-to-day work? Well, in this 30-minute presentation I plan to explain not only how rack 
+    works, what are the most popular helper methods available to every ruby web developer in some form 
+    or another but also, what rack middleware is, what simple yet brilliant examples ship with rack 
+    itself and the rack-contrib library and finally, how to write your own pieces of rack middleware 
+    to help you tackle cross-cutting concerns in this modern day and age.
