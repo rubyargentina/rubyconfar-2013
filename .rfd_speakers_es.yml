@@ -90,11 +90,12 @@ tutec:
   company: General Assembly
   title: 'Simplificando código: de monstruo a elegante en tres simples pasos!'
   abstract: |
-    Todos tenemos muertos en el placard, o vimos los muertos de otros. En este taller voy a mostrar
-    en vivo cómo modificar código altamente acoplado y difícil de entender, mostrando cómo transformar
-    código inmantenible hacia código bello, siguiendo y tendiendo a patrones, para resultar en un bello
-    unicornio que cumple con las cuatro reglas de Sandi Metz, sin grandes dolores de cabeza, sin
-    refactoreos "big bang", y divirtiéndonos.
+    Todos tenemos algún muerto en placard, propio o de nuestro equipo. En este taller aprenderemos 
+    cómo modificar código difícil de entender y altamente acoplado, mostrando cómo transformarlo 
+    siguiendo y tendiendo a patrones, para resultar en un bello unicornio que cumple con las
+    <a href="http://robots.thoughtbot.com/post/50655960596/sandi-metz-rules-for-developers" 
+    target="_blank"> cuatro reglas de Sandi Metz</a>, sin grandes dolores de cabeza, sin cambiar 
+    todo de una vez deteniendo la productividad, y, por supuesto, divirtiéndonos.
   bio: |
     Tute mantiene los proyectos <a href="https://github.com/tute/merit" target="_blank">merit</a> y
     <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. También hizo una aplicación
