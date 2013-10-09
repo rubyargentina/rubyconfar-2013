@@ -86,10 +86,11 @@ tutec:
   company: General Assembly
   title: 'Simplifying your code: from monster to elegant in three simple steps!'
   abstract: |
-    We all have skeletons in our closet, or have seen others' skeletons. In this workshop I'm going
-    to show, live, how to modify highly coupled code and hard to understand, to transform it into
-    beautiful code, using patters, so it becomes the beautiful unicorn according to Sani Metz's
-    four rules, without headaches, without "big bang refactorings"... and having fun!
+    We all have skeletons in our closet, ours or from our team. In this workshop we'll learn how 
+    to modify hard to understand, highly coupled code, to transform it following and tending to 
+    patterns, so it becomes a beautiful unicorn which complies with Sandi Metz's <a 
+    href="http://robots.thoughtbot.com/post/50655960596/sandi-metz-rules-for-developers" target="_blank">
+    four rules</a>, avoiding headaches, without "big bang refactors", and, of course, having fun.
   bio: |
     Tute maintains the projects: <a href="https://github.com/tute/merit" target="_blank">merit</a> and
     <a href="https://github.com/applicake/doorkeeper" target="_blank">doorkeeper</a>. He created an
