@@ -94,6 +94,12 @@ punchgirls:
     <a href="http://twitter.com/djanowski">Damián Janowski</a> y
     <a href="http://twitter.com/inkel">Leandro López</a>,
     persiguen la simplicidad.
+  title: "Primer proyecto: Aplicación open-source para búsquedas laborales"
+  abstract: |
+    En esta charla Mayn y Cecilia hablarán sobre su experiencia de trabajo en el primer proyecto "real" 
+    que emprendieron: una <a href="http://punchgirls.wordpress.com/about-the-project/">aplicación open-source</a>
+    para búsquedas laborales. Hablarán sobre los desafíos que tuvieron que afrontar, cómo trabajan juntas 
+    y la manera en que están aprendiendo a programar.
 
 hyper_linda:
   twitter: hyper_linda

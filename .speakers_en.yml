@@ -83,6 +83,12 @@ punchgirls:
     Cuba and Redis. Mentored by <a href="http://twitter.com/soveran">Michel Martens</a>,
     <a href="http://twitter.com/djanowski">Damián Janowski</a> and
     <a href="http://twitter.com/inkel">Leandro López</a>, they strive for simplicity.
+  title: "First time project: Developing an Open Source job board"
+  abstract: |
+    In this talk, Mayn and Cecilia will tell you about their experience working on their first "real life"
+    project: an <a href="http://punchgirls.wordpress.com/about-the-project/">Open Source job board</a>. 
+    They will talk about the challenges they had to face, how they work together and the way they are learning 
+    to program.
 
 hyper_linda:
   twitter: hyper_linda
