@@ -102,6 +102,15 @@ hyper_linda:
     We invited her because we share the view that
     <a href="http://www.youtube.com/watch?v=FxhGIajRsq4">introducing children to programming is essential</a>,
     and we need to grasp every opportunity to become better at teaching.
+  title: Code Club - Hacking the future
+  abstract: |
+    Code Club is a network of volunteer-led after school clubs for children where they get to play with 
+    computers and learn how to program.
+    We launched Code Club with a single tweet on April 16th, and after running a pilot program in 20 schools, 
+    opened it up so anyone can run one. Today we have over 18000 kids learning to code on a weekly basis. 
+    In this talk I will tell you about what we’ve been up to in the last year, how we’re teaching kids to 
+    program, challenges we’re facing and the road ahead.
+
 
 poteland:
   twitter: poteland
