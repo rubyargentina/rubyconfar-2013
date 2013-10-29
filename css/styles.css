@@ -262,7 +262,9 @@ span.price {
 }
 
 span.price-regular {
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
+  font-weight: 800;
+  color: #d33;
 }
 
 span.price-earlybird {
