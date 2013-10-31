@@ -128,3 +128,20 @@ luke_ar:
     y es cofundador del movimiento <a href="http://www.wecode.io" target="_blank">wecode</a>. Algunos de
     sus proyectos son <a href="http://braid.herokuapp.com" target="_blank">braid</a> y
     <a href="https://github.com/delucas/notas" target="_blank">notas</a>.
+
+frodsan:
+  twitter: frodsan
+  github: frodsan
+  full_name: Francesco Rodriguez
+  company: ''
+  title: ''
+  abstract: |
+    En este taller aprenderás como crear aplicaciones web con Cuba, el microframework hecho en Ruby. El taller 
+    está diseñado para principiantes que quieran empezar una aplicación Cuba desde cero. No asume alguna 
+    experiencia previa con otros frameworks web, sin embargo para sacarle el máximo provecho deberás conocer 
+    algo sobre Ruby (<a href="http://tryruby.org/" target="_blank">http://tryruby.org/</a>).
+  bio: |
+    Francesco contribuye activamente a proyectos Open Source como Rails, Rubinius y Ember.js. Además es autor 
+    de varias librerías en Ruby.
+       
+                  

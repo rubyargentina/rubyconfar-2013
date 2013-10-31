@@ -122,3 +122,18 @@ luke_ar:
     <a href = "http://www.wecode.io "target ="_blank">wecode</a> movement co-founders. Some of his projects
     are <a href="braid.herokuapp.com" target="_blank">braid</a> and
     <a href="github.com/delucas/notas" target="_blank">notas</a>.
+
+frodsan:
+  twitter: frodsan
+  github: frodsan
+  full_name: Francesco Rodriguez
+  company: ''
+  title: 'Introducción a Cuba (The Ruby Microframework)'
+  abstract: |
+    In this workshop you will learn to build web applications with Cuba, a microframework made on Ruby. The 
+    workshop is intended for beginners that want to build an application with Cuba from the beginning. 
+    Experience with other web frameworks won't be required. However, you should know a little about Ruby. 
+    For example you can check out <a href="http://tryruby.org/" target="_blank">http://tryruby.org/</a>.
+  bio: |
+    Francesco actively contributes to Open Source projects like Rails, Rubinius and Ember.js. He is also 
+    the author of several Ruby libraries.
