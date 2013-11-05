@@ -137,3 +137,27 @@ frodsan:
   bio: |
     Francesco actively contributes to Open Source projects like Rails, Rubinius and Ember.js. He is also 
     the author of several Ruby libraries.
+
+
+joaquinvicente:
+  twitter: joaquinvicente
+  github: llopez
+  full_name: Joaquín Vicente & Luis López
+  company: Altoros
+  title: 'Introduction to Ruby on Rails'
+  abstract: |
+    In this workshop you'll learn how to create web applications with Rails. The workshop is for programmers 
+    of any other technology, that still don't have experience in Ruby. The objective is for everyone to 
+    build a small application during the workshop.
+  bio: |
+    Luis a.k.a 'luigibyte' is a programmer and inline skater. He came to the programming world because of 
+    Ruby and since then he has focused on this language.
+    Since his start in the field, he encountered some nice people that teached him, so he sees this workshop 
+    as an opportunity of giving up some of this.
+    They say that the last step to understand something is to teach it, so that's his goal.
+    <br/><br/>
+    Joaquín learnt to code when he was a child and wanted to hack the snake game in Basic that ran under DOS.
+    Since then he realised that programming was his thing. He came across a large variety of languages until 
+    he met Ruby. He says that it was love at first sight. He likes to learn and teach new things all the time. 
+    When he is not programming, he loves to travel, but he misses Buenos Aires from time to time. He dreams 
+    to take his "office" on a RV across the world.
