@@ -65,6 +65,11 @@ janogonzalez:
     He spoke at RubyConf Uruguay 2011 and 2013, and also at
     RubyConf Argentina 2012. He is a great friend of all of us, so we
     call him "Jano of the Americas"
+  title: The Bipolar programmer
+  abstract: |
+    Each programmer has 2 personalities: The hacker is the one who makes things fast at the expense 
+    of making a mess, and the perfectionist, that looks for the best abstractions but may get 
+    stalled. Learn how both personalities may live in armony using Ruby.
 
 punchgirls:
   twitter: punchgirls

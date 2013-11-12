@@ -74,6 +74,11 @@ janogonzalez:
   bio: |
     Jano es programador y músico amateur. Vive en Santiago de Chile, y actualmente es el CTO de HopIn.
     Fue orador en RubyConf Uruguay 2011 y 2013, y también en RubyConf Argentina 2012. Es un gran amigo del Río de la Plata, así que lo llamamos "Jano de América".
+  title: El programador bipolar
+  abstract: |
+    Cada programador tiene 2 personalidades: El hacker que hace las cosas rápido a riesgo de crear 
+    desorden y el perfeccionista que busca las mejores abstracciones a riesgo de quedarse paralizado. 
+    Aprende como ambas personalidades pueden vivir en armonía usando Ruby.
 
 punchgirls:
   twitter: punchgirls
