@@ -365,3 +365,34 @@ div.session {
 .no-margin{
   margin:0px auto;
 }
+
+#rfd-schedule{
+  width:100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#rfd-schedule th, #rfd-schedule td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+  text-align:center;
+}
+#rfd-schedule td{
+  vertical-align: middle;
+}
+#rfd-schedule thead th{
+  width:22%;
+}
+#rfd-schedule thead th:nth-child(1){
+  width:12% !important;
+}
+#rfd-schedule-container{
+  margin:0px auto !important;
+}
+
+
+

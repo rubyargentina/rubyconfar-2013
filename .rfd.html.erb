@@ -46,6 +46,55 @@
         <div class="rfd-description"><%= t('rfd_description') %></div>
       </div>
 
+      <div class="container" id="rfd-schedule-container">
+        <h2><%= t('rfd_schedule')%></h2>
+        <table id="rfd-schedule">
+          <thead>
+            <tr>
+              <th>Horario</th>
+              <th>Track 1</th>
+              <th>Track 2</th>
+              <th>Track 3</th>
+              <th>Track 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>9:00 a 9:45</th>
+              <td colspan="4"><%= t('rfd_registration') %></td>
+            </tr>
+            <tr>
+              <th>9:45 a 10:00</th>
+              <td colspan="4">Bienvenida</td>
+            </tr>
+            <tr>
+              <th>10:00 a 12:00</th>
+              <td><a href="#luke_ar">git y Github ...</a></td>
+              <td><a href="#frodsan">Intro a Cuba ...</a></td>
+              <td><a href="#egutter">The Agile City ...</a></td>
+              <td><a href="#dariocravero">Understanding deployments</a></td>
+            </tr>
+            <tr>
+              <th>12:00 a 13:30</th>
+              <td colspan="4"><%= t('lunch') %></td>
+            </tr>
+            <tr>
+              <th>13:30 a 15:30</th>
+              <td><a href="#luke_ar">TDD IRL</a></td>
+              <td><a href="#damianmarti">Introducción a NoSQL</a></td>
+              <td rowspan="2"><a href="#joaquinvicente">Introducción a Rails</a></td>
+              <td rowspan="2"><a href="#lightning">Lightning Workshops</a></td>
+            </tr>
+            <tr>
+              <th>15:30 a 17:30</th>
+              <td><a href="#martinsalias">Yoseki Coding Dojo</a></td>
+              <td><a href="#tutec">Simplificando código</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>* <%= t('rfd_schedule_disclaimer') %></em></p>
+      </div>
+
       <div class="container no-margin">
         <a href="https://eventioz.com.ar/e/ruby-fun-day-2013/registrations/new" class="btn btn-red btn-large"><i class="icon-ticket"></i> <%= t('register_rfd') %></a>
       </div>
@@ -54,7 +103,7 @@
         <h2><%= t('rfd_title')%></h2>
         <% @rfd_speakers.each do |speaker| %>
           <% if speaker[1]['bio'] %>
-            <div class="session">
+            <div class="session"><a id="<%= speaker[0] %>"></a>
               <div class="pic">
                 <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
               </div>
