@@ -19,6 +19,7 @@ class Generator
     write_html @lang + '/index.html', ERB.new( File.open(".index.html.erb").read ).result(binding)
     write_html @lang + '/program.html', ERB.new( File.open(".program.html.erb").read ).result(binding)
     write_html @lang + '/rfd.html', ERB.new( File.open(".rfd.html.erb").read ).result(binding)
+    write_html @lang + '/app.html', ERB.new( File.open(".app.html.erb").read ).result(binding)
   end
 
 private
