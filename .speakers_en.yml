@@ -43,6 +43,16 @@ tef:
     environment and specially how to optimize it for teaching and
     learning. We think it's a great opportunity for us to take a peek
     into his mind and hopefully use his advice to improve our community.
+  title:  Programming is terrible — Lessons learned from a life wasted
+  abstract: |
+    A look at the social problems around programming, and the culture we’ve created, rather than talking 
+    about algorithms and data structures.<br/>
+    We'll start off by exploring biases, the bad habits people and groups have, and look at how culture 
+    dictates code. Along the way there will be making fun of 'celebrity programmers', and some war 
+    stories too. We'll end with how we teach, how we learn, and how we can help people explore 
+    through play.<br/>
+    For those who’ve been programming for a while, I hope you’ll be entertained by war stories, and for 
+    those who are just starting out, I hope you’ll leave feeling a little bit better about your code.
 
 cherkaos:
   full_name: Ostap Cherkashin
