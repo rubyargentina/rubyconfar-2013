@@ -20,6 +20,14 @@ sintaxi:
     software y ofrecer soluciones simples basadas en principios básicos.
     Se ha presentado en varias conferencias en los últimos años y es un placer
     tenerlo como uno de nuestros oradores.
+  title: Lessons learned building the Harp Platform
+  abstract: |
+    En software, cuando la complejidad es domesticada, no hay límite a lo que se puede lograr. 
+    En esta charla voy a compartir lecciones valiosas aprendidas construyendo la Plataforma Harp. 
+    La importancia de la modularidad, el por qué evitamos REST, y cómo usamos un sistema de mensajes 
+    para construir un sistema distribuído mientras mantuvimos total transparencia a lo largo de 
+    nuestra red. A pesar de que la Plataforma Harp está escrita en NodeJS, todavía hay un componente 
+    que usa Ruby. Espero con ansias compartir lo que hemos aprendido.
 
 tef:
   twitter: tef

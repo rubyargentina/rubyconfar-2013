@@ -20,6 +20,14 @@ sintaxi:
     complexity and provide simple solutions based on some core
     principles. He has presented at several conferences over the past
     few years and it's a pleasure to have him as one of our speakers.
+  title: Lessons learned building the Harp Platform
+  abstract: |
+    In software, when complexity is tamed there is no limit to what can be achieved. In this talk I 
+    will share valuable lessons learned when building the Harp Platform. The importance of modularity, 
+    why we avoided REST, and how we used messaging system to build a distributed system while keeping 
+    complete transparency across our network. Even though the Harp Platform is written in NodeJS there 
+    is still one piece that uses Ruby. I look forward to sharing what we learned.
+
 
 tef:
   twitter: tef
