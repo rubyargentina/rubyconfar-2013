@@ -11,12 +11,13 @@
   <body>
     <nav>
       <ul>
-        <li><a href='#home'><%= t('nav_home') %></a></li>
-        <li><a href='#speakers'><%= t('nav_speakers') %></a></li>
+        <li><a href='index.html#home'><%= t('nav_home') %></a></li>
+        <li><a href='index.html#speakers'><%= t('nav_speakers') %></a></li>
         <li><a href='program.html'><%= t('nav_program') %></a></li>
         <li><a href='rfd.html'><%= t('nav_rfd') %></a></li>
-        <li><a href='#venue'><%= t('nav_venue') %></a></li>
-        <li><a href='#sponsors'><%= t('nav_sponsors') %></a></li>
+        <li><a href='schedule.html'><%= t('nav_schedule') %></a></li>
+        <li><a href='index.html#venue'><%= t('nav_venue') %></a></li>
+        <li><a href='index.html#sponsors'><%= t('nav_sponsors') %></a></li>
         <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
       </ul>
     </nav>
@@ -45,12 +46,14 @@
         <h2><%= t('cfp_title')%></h2>
         <ul>
           <% @speakers.merge(@rfd_speakers).each do |speaker| %>
-            <li>
-              <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
-              <h3><a href="https://twitter.com/<%= speaker[1]['twitter'] %>"><%= speaker[1]['twitter'] %></a></h3>
-              <p>(<%= speaker[1]['full_name']%>)</p>
-              <p><%= speaker[1]['company']%>&nbsp;</p>
-            </li>
+            <% unless speaker[1]['hidden'] %>
+              <li>
+                <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
+                <h3><a href="https://twitter.com/<%= speaker[1]['twitter'] %>"><%= speaker[1]['twitter'] %></a></h3>
+                <p>(<%= speaker[1]['full_name']%>)</p>
+                <p><%= speaker[1]['company']%>&nbsp;</p>
+              </li>
+            <% end %>
           <% end %>
         </ul>
       </div>

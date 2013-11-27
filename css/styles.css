@@ -284,7 +284,7 @@ section#sponsors ul {
   margin-bottom: 30px;
 }
 
-section#program{
+section#program, section#schedule{
   margin-top: 130px;
 }
 
@@ -366,33 +366,55 @@ div.session {
   margin:0px auto;
 }
 
-#rfd-schedule{
+.schedule{
+  padding: 10px 0 20px;
+}
+
+.schedule h3{
+  text-align: left;
+}
+
+.schedule-table{
   width:100%;
   max-width: 100%;
   background-color: transparent;
-  border-collapse: collapse;
+  border-collapse: sepatate;
   border-spacing: 0;
 }
-#rfd-schedule th, #rfd-schedule td {
+.schedule-table th, .schedule-table td {
+  font-size: 14px;
   padding: 8px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
   text-align:center;
+  border: 5px solid white;
 }
-#rfd-schedule td{
+.schedule-table td{
+  border-radius: 10px;
   vertical-align: middle;
+  background-color: rgba(255, 204, 0, 0.5);
 }
-#rfd-schedule thead th{
+.schedule-table thead th{
   width:22%;
+  border-top: none;
 }
-#rfd-schedule thead th:nth-child(1){
+.schedule-table thead th:nth-child(1){
   width:12% !important;
 }
-#rfd-schedule-container{
+
+.schedule-table-container{
   margin:0px auto !important;
 }
 
+.schedule-table td a{
+  font-weight: bold;
+}
 
+.schedule-table td a, .schedule-table td span{
+  display: block;
+}
 
+.schedule-table td.gray{
+  background-color: rgba(240, 240, 240, 1);
+}

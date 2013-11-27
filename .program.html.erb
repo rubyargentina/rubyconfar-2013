@@ -15,6 +15,7 @@
         <li><a href='index.html#speakers'><%= t('nav_speakers') %></a></li>
         <li><a href='program.html'><%= t('nav_program') %></a></li>
         <li><a href='rfd.html'><%= t('nav_rfd') %></a></li>
+        <li><a href='schedule.html'><%= t('nav_schedule') %></a></li>
         <li><a href='index.html#venue'><%= t('nav_venue') %></a></li>
         <li><a href='index.html#sponsors'><%= t('nav_sponsors') %></a></li>
         <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
@@ -33,7 +34,7 @@
         <h2><%= t('program_title')%></h2>
         <% @speakers.each do |speaker| %>
           <% if speaker[1]['bio'] %>
-            <div class="session">
+            <div class="session" id="<%= speaker[0] %>">
               <div class="pic">
                 <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
               </div>

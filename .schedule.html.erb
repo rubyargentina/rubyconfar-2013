@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="<%= t('site_lang') %>">
+  <head>
+    <meta charset="UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" rel="stylesheet" media="all">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>RubyConf Argentina 2013</title>
+    <link rel="icon" type="image/png" href="../favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href='index.html#home'><%= t('nav_home') %></a></li>
+        <li><a href='index.html#speakers'><%= t('nav_speakers') %></a></li>
+        <li><a href='program.html'><%= t('nav_program') %></a></li>
+        <li><a href='rfd.html'><%= t('nav_rfd') %></a></li>
+        <li><a href='schedule.html'><%= t('nav_schedule') %></a></li>
+        <li><a href='index.html#venue'><%= t('nav_venue') %></a></li>
+        <li><a href='index.html#sponsors'><%= t('nav_sponsors') %></a></li>
+        <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
+      </ul>
+    </nav>
+    
+    <header id="home">
+      <div class="container">
+        <img src="../img/rubyconfar-2013.png">
+        <p>Buenos Aires, <%= t('date') %></p>
+      </div>
+    </header>
+
+    <section id="schedule">
+      <div class="container">
+        <h2><%= t('schedule_title')%></h2>
+
+        <div class="schedule">
+          <h3><%= t('schedule_title_rfd')%></h3>
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Track 1</th>
+                <th>Track 2</th>
+                <th>Track 3</th>
+                <th>Track 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>9:00</th>
+                <td colspan="4" class='gray'><%= t('registration') %></td>
+              </tr>
+              <tr>
+                <th>9:45</th>
+                <td colspan="4" class='gray'><%= t('welcome') %></td>
+              </tr>
+              <tr>
+                <th>10:00</th>
+                <td><%= schedule_talk 'luke_ar', true %></td>
+                <td><%= schedule_talk 'frodsan', true %></td>
+                <td><%= schedule_talk 'egutter', true %></td>
+                <td><%= schedule_talk 'dariocravero', true %></td>
+              </tr>
+              <tr>
+                <th>12:00</th>
+                <td colspan="4" class='gray'><%= t('break') %></td>
+              </tr>
+              <tr>
+                <th>13:30</th>
+                <td rowspan="2"><%= schedule_talk 'joaquinvicente', true %></td>
+                <td><%= schedule_talk 'damianmarti', true %></td>
+                <td><%= schedule_talk 'luke_ar2', true %></td>
+                <td rowspan="2">Lightning Workshops</td>
+              </tr>
+              <tr>
+                <th>15:30</th>
+                <td><%= schedule_talk 'tutec', true %></td>
+                <td><%= schedule_talk 'martinsalias', true %></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="schedule">
+          <h3><%= t('schedule_title_day1')%></h3>
+          <table class="schedule-table">
+            <tbody>
+              <tr><th>8:00</th><td class='gray'><%= t('breakfast') %></td></tr>
+              <tr><th>8:45</th><td class='gray'><%= t('welcome') %></td></tr>
+              <tr><th>9:00</th><td><%= schedule_talk 'tef' %></td></tr>
+              <tr><th>9:30</th><td><%= schedule_talk 'poteland' %></td></tr>
+              <tr><th>10:00</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>10:15</th><td><%= schedule_talk 'punchgirls' %></td></tr>
+              <tr><th>10:45</th><td><%= schedule_talk 'thiagopradi' %></td></tr>
+              <tr><th>11:15</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>11:30</th><td><%= schedule_talk 'cherkaos' %></td></tr>
+              <tr><th>12:00</th><td><%= schedule_talk 'saltinejustine' %></td></tr>
+              <tr><th>12:30</th><td class='gray'><%= t('lunch') %></td></tr>
+              <tr><th>14:00</th><td class='black'>Lightning Talks</td></tr>
+              <tr><th>14:30</th><td><%= schedule_talk 'spastorino' %></td></tr>
+              <tr><th>15:00</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>15:15</th><td><%= schedule_talk 'abecciu' %></td></tr>
+              <tr><th>15:45</th><td><%= schedule_talk 'hannelita' %></td></tr>
+              <tr><th>16:15</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>16:30</th><td><%= schedule_talk 'cristianrasch' %></td></tr>
+              <tr><th>17:00</th><td><%= schedule_talk 'janogonzalez' %></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="schedule">
+          <h3><%= t('schedule_title_day2')%></h3>
+          <table class="schedule-table">
+            <tbody>
+              <tr><th>8:00</th><td class='gray'><%= t('breakfast') %></td></tr>
+              <tr><th>9:00</th><td><%= schedule_talk 'runixo' %></td></tr>
+              <tr><th>9:30</th><td><%= schedule_talk 'pellegrino' %></td></tr>
+              <tr><th>10:00</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>10:15</th><td><%= schedule_talk 'hyper_linda' %></td></tr>
+              <tr><th>10:45</th><td><%= schedule_talk 'kurko' %></td></tr>
+              <tr><th>11:15</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>11:30</th><td><%= schedule_talk 'sintaxi' %></td></tr>
+              <tr><th>12:00</th><td><%= schedule_talk 'xymbol' %></td></tr>
+              <tr><th>12:30</th><td class='gray'><%= t('lunch') %></td></tr>
+              <tr><th>14:00</th><td class='black'>Lightning Talks</td></tr>
+              <tr><th>14:30</th><td><%= schedule_talk 'ajlopez' %></td></tr>
+              <tr><th>15:00</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>15:15</th><td><%= schedule_talk 'elbrujohalcon' %></td></tr>
+              <tr><th>15:45</th><td><%= schedule_talk 'plexus' %></td></tr>
+              <tr><th>16:15</th><td class='gray'><%= t('break') %></td></tr>
+              <tr><th>16:30</th><td><%= schedule_talk 'androbtech' %></td></tr>
+              <tr><th>17:00</th><td><%= schedule_talk 'cuerbot' %></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p><em>* <%= t('schedule_disclaimer') %></em></p>
+      </div>
+    </section>
+
+
+    <footer>
+      <p><%= t('footer_first') %> <abbr title="Ruby Argentina Asociación Civil">RAAC</abbr>, <%= t('footer_end') %>.</p>
+      <p class="pull-right">
+        <a href="http://twitter.com/rubyconfar" title="Twitter"><i class="icon-twitter-sign icon-2x"></i></a>
+        <a href="http://facebook.com/rubyconfar" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a>
+        <a href="https://vimeo.com/rubyargentina" title="Vimeo"><i class="icon-youtube-play icon-2x"></i></a>
+      </p>
+      <p class="past-editions">
+        <%= t('past_editions') %>:
+        <a href="http://2011.rubyconfargentina.org">RubyConf Argentina 2011</a>
+        <a href="http://2012.rubyconfargentina.org">RubyConf Argentina 2012</a>
+      </p>
+      <p class="admission-disclaimer">
+        <%= t('admission_disclaimer') %>
+      </p>
+    </footer>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-83541-16']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

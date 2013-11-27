@@ -2,6 +2,7 @@ site_lang: en
 nav_home: Home
 nav_speakers: Speakers
 nav_program: Program
+nav_schedule: Schedule
 nav_rfd: Ruby Fun Day
 nav_venue: Venue
 nav_sponsors: Sponsors
@@ -39,9 +40,13 @@ rfd_description: |
 admission_disclaimer: | 
   The event organizers reserve the right to refuse admission or expell any participant engaging in 
   incorrect behavior in accordance with the provisions of law.
-rfd_schedule: Workshops Schedule  
-lunch: Break
-rfd_registration: Registration
-rfd_welcome: Welcome to RFD
-rfd_schedule_disclaimer: The schedule could change at any time.
-app_title: RubyConf Argentina's Mobile App
+schedule_title: Schedule
+schedule_title_rfd: Tuesday, November 26th - <a href="rfd.html">Ruby Fun Day</a>
+schedule_title_day1: Wednesday, November 27th
+schedule_title_day2: Thursday, November 28th
+welcome: Welcome
+registration: Registration
+breakfast: Registration and Breakfast
+lunch: Lunch
+break: Break
+schedule_disclaimer: Schedule is subject to change because of organization matters.

@@ -1,8 +1,9 @@
 site_lang: es
 nav_home: Inicio
-nav_speakers: Oradores
+nav_sponsorspeakers: Oradores
 nav_program: Programa
 nav_rfd: Ruby Fun Day
+nav_schedule: Agenda
 nav_venue: Lugar
 nav_sponsors: Sponsors
 nav_lang_selector_url: /en
@@ -40,9 +41,13 @@ rfd_description: |
 admission_disclaimer: | 
   La organización del evento se reserva el derecho de admisión y permanencia conforme con lo 
   establecido en la legislación vigente.
-rfd_schedule: Cronograma de Talleres
-lunch: Break
-rfd_registration: Acreditación
-rfd_welcome: Bienvenida
-rfd_schedule_disclaimer: El cronograma está sujeto a cambios por razones organizativas.
-app_title: Aplicación móvil de RubyConf Argentina
+schedule_title: Agenda
+schedule_title_rfd: Martes 26 de noviembre - <a href="rfd.html">Ruby Fun Day</a>
+schedule_title_day1: Miércoles 27 de noviembre
+schedule_title_day2: Jueves 28 de noviembre
+welcome: Bienvenida
+registration: Acreditaciones
+breakfast: Acreditaciones y Desayuno
+lunch: Almuerzo
+break: Break
+schedule_disclaimer: La agenda está sueta a cambios por razones organizativas.

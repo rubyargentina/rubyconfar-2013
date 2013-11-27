@@ -15,6 +15,7 @@
         <li><a href='index.html#speakers'><%= t('nav_speakers') %></a></li>
         <li><a href='program.html'><%= t('nav_program') %></a></li>
         <li><a href='rfd.html'><%= t('nav_rfd') %></a></li>
+        <li><a href='schedule.html'><%= t('nav_schedule') %></a></li>
         <li><a href='index.html#venue'><%= t('nav_venue') %></a></li>
         <li><a href='index.html#sponsors'><%= t('nav_sponsors') %></a></li>
         <li class="pull-right"><a href='<%= t('nav_lang_selector_url') %>'><%= t('nav_lang_selector_message') %></a></li>
@@ -46,55 +47,6 @@
         <div class="rfd-description"><%= t('rfd_description') %></div>
       </div>
 
-      <div class="container" id="rfd-schedule-container">
-        <h2><%= t('rfd_schedule')%></h2>
-        <table id="rfd-schedule">
-          <thead>
-            <tr>
-              <th>Horario</th>
-              <th>Track 1</th>
-              <th>Track 2</th>
-              <th>Track 3</th>
-              <th>Track 4</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>9:00 a 9:45</th>
-              <td colspan="4"><%= t('rfd_registration') %></td>
-            </tr>
-            <tr>
-              <th>9:45 a 10:00</th>
-              <td colspan="4"><%= t('rfd_welcome') %></td>
-            </tr>
-            <tr>
-              <th>10:00 a 12:00</th>
-              <td><a href="#luke_ar">git y Github ...</a></td>
-              <td><a href="#frodsan">Intro a Cuba ...</a></td>
-              <td><a href="#egutter">The Agile City ...</a></td>
-              <td><a href="#dariocravero">Understanding deployments</a></td>
-            </tr>
-            <tr>
-              <th>12:00 a 13:30</th>
-              <td colspan="4"><%= t('lunch') %></td>
-            </tr>
-            <tr>
-              <th>13:30 a 15:30</th>
-              <td><a href="#luke_ar">TDD IRL</a></td>
-              <td><a href="#damianmarti">Introducción a NoSQL</a></td>
-              <td rowspan="2"><a href="#joaquinvicente">Introducción a Rails</a></td>
-              <td rowspan="2"><a href="#lightning">Lightning Workshops</a></td>
-            </tr>
-            <tr>
-              <th>15:30 a 17:30</th>
-              <td><a href="#martinsalias">Yoseki Coding Dojo</a></td>
-              <td><a href="#tutec">Simplificando código</a></td>
-            </tr>
-          </tbody>
-        </table>
-        <p><em>* <%= t('rfd_schedule_disclaimer') %></em></p>
-      </div>
-
       <div class="container no-margin">
         <a href="https://eventioz.com.ar/e/ruby-fun-day-2013/registrations/new" class="btn btn-red btn-large"><i class="icon-ticket"></i> <%= t('register_rfd') %></a>
       </div>
@@ -103,20 +55,29 @@
         <h2><%= t('rfd_title')%></h2>
         <% @rfd_speakers.each do |speaker| %>
           <% if speaker[1]['bio'] %>
-            <div class="session"><a id="<%= speaker[0] %>"></a>
-              <div class="pic">
-                <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg">
-              </div>
-              <div class="txt">
-                <h3>
-                  <%= speaker[1]['full_name']%>
-                  <% if speaker[1]['twitter'] %><a href="http://twitter.com/<%= speaker[1]['twitter'] %>"><i class="icon-twitter"></i></a><% end %>
-                  <% if speaker[1]['github'] %><a href="http://github.com/<%= speaker[1]['github'] %>"><i class="icon-github"></i></a><% end %>
-                </h3>
-                <p class="bio"><%= speaker[1]['bio'] || '...' %></p>
+            <div class="session">
+              <% if speaker[1]['hidden'] %>
+                <div class='pic'><!-- No pic for you! --></div>
+                <div class="txt">
+                  <h4><%= speaker[1]['title'] || t('tba') %></h4>
+                  <p class="session-details"><%= speaker[1]['abstract']%></p>
+                </div>
+              <% else %>
+                <a id="<%= speaker[0] %>"></a>
+                <div class="pic">
+                  <img class="speaker" alt="<%= speaker[1]['full_name']%>" src="../img/speakers/<%= speaker[0] %>.jpg" />
+                </div>
+                <div class="txt">
+                  <h3>
+                    <%= speaker[1]['full_name']%>
+                    <% if speaker[1]['twitter'] %><a href="http://twitter.com/<%= speaker[1]['twitter'] %>"><i class="icon-twitter"></i></a><% end %>
+                    <% if speaker[1]['github'] %><a href="http://github.com/<%= speaker[1]['github'] %>"><i class="icon-github"></i></a><% end %>
+                  </h3>
+                  <p class="bio"><%= speaker[1]['bio'] || '...' %></p>
                 <h4><%= speaker[1]['title'] || t('tba') %></h4>
                 <p class="session-details"><%= speaker[1]['abstract']%></p>
               </div>
+            <% end %>
             </div>
           <% end %>
         <% end %>

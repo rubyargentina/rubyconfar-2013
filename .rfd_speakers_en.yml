@@ -102,16 +102,8 @@ luke_ar:
   github: delucas
   full_name: Lucas Videla
   company: Uno21
-  title: "TDD IRL // Don't you use git and GitHub yet?"
+  title: "Don't you use git and GitHub yet?"
   abstract: |
-    "Test Driven Development In Real Life" is a workshop for attendees to experience the use and essence of
-    TDD in Ruby. We'll develop an example together, and see the power of growing software with the security
-    that tests provide us. It is designed for people who have learnt the language, but do not necessarily
-    know the testing tools.
-    If you don't know the technique of TDD, or if you saw it only at University or some fancy videos, we
-    suggest you to come and do it in a real project.
-    //
-    Don't you use git and GitHub yet?
     A workshop in which participants will experience the basics and first steps with the main version
     control system today. Like any workshop, the slogan will be "hands-on", and we will continue some
     instructions that will drive us to live the use of git. Bring your computer, get on with git.
@@ -122,6 +114,28 @@ luke_ar:
     <a href = "http://www.wecode.io "target ="_blank">wecode</a> movement co-founders. Some of his projects
     are <a href="braid.herokuapp.com" target="_blank">braid</a> and
     <a href="github.com/delucas/notas" target="_blank">notas</a>.
+
+luke_ar2:
+  twitter: luke_ar
+  github: delucas
+  full_name: Lucas Videla
+  company: Uno21
+  title: "TDD IRL"
+  abstract: |
+    "Test Driven Development In Real Life" is a workshop for attendees to experience the use and essence of
+    TDD in Ruby. We'll develop an example together, and see the power of growing software with the security
+    that tests provide us. It is designed for people who have learnt the language, but do not necessarily
+    know the testing tools.
+    If you don't know the technique of TDD, or if you saw it only at University or some fancy videos, we
+    suggest you to come and do it in a real project.
+  bio: |
+    Lucas is a tireless apprentice of the art of programming. He lectures at two universities, and teaches
+    the basics of programming for young people from age 17 to 6x (because nobody older attended yet).
+    He currently works at <a href="http://www.uno21.com.ar" target="_blank">uno21</a> and is one of the
+    <a href = "http://www.wecode.io "target ="_blank">wecode</a> movement co-founders. Some of his projects
+    are <a href="braid.herokuapp.com" target="_blank">braid</a> and
+    <a href="github.com/delucas/notas" target="_blank">notas</a>.
+  hidden: true
 
 frodsan:
   twitter: frodsan
@@ -161,11 +175,3 @@ joaquinvicente:
     he met Ruby. He says that it was love at first sight. He likes to learn and teach new things all the time. 
     When he is not programming, he loves to travel, but he misses Buenos Aires from time to time. He dreams 
     to take his "office" on a RV across the world.
-
-lightning:
-  full_name: Lightning Workshops
-  company: ¿Vos?
-  title: ''
-  bio: |
-    You can prepare a short talk or workshop and present it in a special slot at Ruby Fun Day. 
-    You'll have to sign up in a bord at the event.
